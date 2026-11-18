@@ -1,6 +1,6 @@
-# AGENTS.md — Drawsie site rules for LLM agents
+# AGENTS.md — Drawise site rules for LLM agents
 
-This repo is the Drawsie website (step-by-step drawing tutorials for kids,
+This repo is the Drawise website (step-by-step drawing tutorials for kids,
 students, and parents), served by GitHub Pages from the `docs/` folder on
 `main`. Push to `main` = live. Read this file before changing anything.
 
@@ -46,7 +46,7 @@ Never hand-edit the gallery, chips, related cards, or sitemap — they are
 generated. To add a tutorial:
 
 1. Create `docs/assets/<slug>/` with `sheet.png`, `final.png`, `steps.js`
-   (steps.js must define `window.DRAWSIE_STEPS`).
+   (steps.js must define `window.DRAWISE_STEPS`).
 2. Copy `tools/tutorial-template.html` to
    `docs/tutorials/how-to-draw-<slug>.html` and fill in the placeholders.
 3. Add one entry to `tutorials.json` (slug, title, subject, category,

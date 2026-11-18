@@ -1,4 +1,4 @@
-# Drawsie content roadmap
+# Drawise content roadmap
 
 Tutorial subjects kids (ages 3–15) like, all at **10 steps or fewer**.
 Step counts below include the final color panel, matching how the site

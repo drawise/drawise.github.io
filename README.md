@@ -1,4 +1,4 @@
-# Drawsie
+# Drawise
 
 Step-by-step drawing tutorials for kids and beginners — cute animals in 6–10 easy steps, following the red guide lines.
 
@@ -45,7 +45,7 @@ Visitors find tutorials three ways, all powered by `tutorials.json`:
 `tutorials.json` is the source of truth — the gallery, chips, related cards, and sitemap are generated, never hand-edited.
 
 1. Produce the step data + sheet PNG (production pipeline).
-2. Create `docs/assets/<tutorial-slug>/` (a new peer folder for every tutorial, including variants of an animal already covered) with the sheet (`sheet.png`), the finished-drawing thumbnail (`final.png`), and the player data (`steps.js`, defining `window.DRAWSIE_STEPS`).
+2. Create `docs/assets/<tutorial-slug>/` (a new peer folder for every tutorial, including variants of an animal already covered) with the sheet (`sheet.png`), the finished-drawing thumbnail (`final.png`), and the player data (`steps.js`, defining `window.DRAWISE_STEPS`).
 3. Copy `tools/tutorial-template.html` to `docs/tutorials/how-to-draw-<slug>.html` and fill in the placeholders.
 4. Add one entry to `tutorials.json`.
 5. Run `python3 tools/build.py` (validates everything, regenerates the listings), then commit and push.

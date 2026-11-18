@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Drawsie site builder.
+"""Drawise site builder.
 
 Reads tutorials.json (repo root) and regenerates everything that depends on
 the tutorial list, so adding a tutorial never means hand-editing listings:
@@ -101,8 +101,8 @@ def main():
             if n != 2:
                 errors.append(f"{slug}: GTM-WP3XNK83 appears {n}x on page (must be exactly 2)")
             steps_js = open(os.path.join(DOCS, "assets", slug, "steps.js")).read()
-            if "DRAWSIE_STEPS" not in steps_js:
-                errors.append(f"{slug}: steps.js must define window.DRAWSIE_STEPS")
+            if "DRAWISE_STEPS" not in steps_js:
+                errors.append(f"{slug}: steps.js must define window.DRAWISE_STEPS")
     if errors:
         fail(errors)
 
