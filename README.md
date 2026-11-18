@@ -32,10 +32,20 @@ docs/
   sitemap.xml
 ```
 
+## Discovery
+
+Visitors find tutorials three ways, all powered by `tutorials.json`:
+
+- **Search** — the homepage search box matches titles and tags (including kid synonyms like "kitty"), filtered instantly in the browser.
+- **Browse** — category and difficulty chips filter the gallery; every tutorial page ends with "Draw these next" cards (same category first).
+- **Search engines / Pinterest** — one page per tutorial with HowTo structured data, plus a generated sitemap.
+
 ## Adding a tutorial
 
+`tutorials.json` is the source of truth — the gallery, chips, related cards, and sitemap are generated, never hand-edited.
+
 1. Produce the step data + sheet PNG (production pipeline).
-2. Create `docs/assets/<tutorial-slug>/` (a new peer folder for every tutorial, including variants of an animal already covered) with the sheet (`sheet.png`), the finished-drawing thumbnail (`final.png`), and the player data (`steps.js`).
-3. Add `docs/tutorials/how-to-draw-<subject>.html` (copy the cat page, update title/steps/HowTo JSON-LD).
-4. Link it from the gallery in `docs/index.html` and add the URL to `docs/sitemap.xml`.
-5. Commit and push.
+2. Create `docs/assets/<tutorial-slug>/` (a new peer folder for every tutorial, including variants of an animal already covered) with the sheet (`sheet.png`), the finished-drawing thumbnail (`final.png`), and the player data (`steps.js`, defining `window.DRAWSIE_STEPS`).
+3. Copy `tools/tutorial-template.html` to `docs/tutorials/how-to-draw-<slug>.html` and fill in the placeholders.
+4. Add one entry to `tutorials.json`.
+5. Run `python3 tools/build.py` (validates everything, regenerates the listings), then commit and push.

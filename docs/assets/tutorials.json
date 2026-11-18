@@ -1,0 +1,23 @@
+{
+  "tutorials": [
+    {
+      "slug": "cat",
+      "title": "How to Draw a Cat",
+      "subject": "Cat",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "kitty",
+        "kitten",
+        "pet",
+        "animal",
+        "mimi"
+      ],
+      "page": "tutorials/how-to-draw-a-cat.html",
+      "sheet": "assets/cat/sheet.png",
+      "thumb": "assets/cat/final.png",
+      "stepsData": "assets/cat/steps.js"
+    }
+  ]
+}

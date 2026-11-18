@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=2">
+<link rel="stylesheet" href="assets/style.css?v=3">
 <meta property="og:title" content="Drawsie — Learn to Draw Cute Animals, Step by Step">
 <meta property="og:description" content="Cute animals in 6–10 easy steps. Follow the red lines!">
 <meta property="og:type" content="website">
@@ -90,40 +90,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section id="tutorials">
     <h2><svg class="paw" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>Drawing tutorials</h2>
     <p class="sub">Free to draw along on screen, or print the sheet and draw on paper.</p>
-    <div class="grid">
-      <a class="tcard" href="tutorials/how-to-draw-a-cat.html">
-        <div class="thumb"><img src="assets/cat/final.png" alt="Cute cat drawing"></div>
+
+    <div class="searchbar">
+      <input type="search" id="searchInput" placeholder="What do you want to draw today?" aria-label="Search tutorials">
+    </div>
+    <div class="chips" id="catChips">
+      <!-- CHIPS-CAT:START -->
+        <button type="button" class="chip on" data-group="cat" data-value="all">All drawings</button>
+        <button type="button" class="chip" data-group="cat" data-value="pets">Pets</button>
+<!-- CHIPS-CAT:END -->
+    </div>
+    <div class="chips" id="diffChips">
+      <!-- CHIPS-DIFF:START -->
+        <button type="button" class="chip on" data-group="diff" data-value="all">Any level</button>
+        <button type="button" class="chip" data-group="diff" data-value="easy">Easy</button>
+<!-- CHIPS-DIFF:END -->
+    </div>
+    <p class="count" id="resultCount"></p>
+
+    <div class="grid" id="galleryGrid">
+      <!-- GALLERY:START -->
+      <a class="tcard" href="tutorials/how-to-draw-a-cat.html" data-category="pets" data-difficulty="easy" data-search="how to draw a cat cat kitty kitten pet animal mimi">
+        <div class="thumb"><img src="assets/cat/final.png" alt="Cute cat drawing" loading="lazy"></div>
         <div class="meta">
           <h3>How to Draw a Cat</h3>
-          <p>8 steps · Easy · Animals</p>
+          <p>8 steps · Easy · Pets</p>
           <span class="badge">Start drawing</span>
         </div>
       </a>
-      <div class="tcard soon">
+<!-- GALLERY:END -->
+      <div class="tcard soon" id="soonTile">
         <div class="thumb"><img src="assets/cat/final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
         <div class="meta">
-          <h3>How to Draw a Dog</h3>
-          <p>Coming soon · Animals</p>
-          <span class="badge soon">In the works</span>
-        </div>
-      </div>
-      <div class="tcard soon">
-        <div class="thumb"><img src="assets/cat/final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
-        <div class="meta">
-          <h3>How to Draw an Owl</h3>
-          <p>Coming soon · Animals</p>
-          <span class="badge soon">In the works</span>
-        </div>
-      </div>
-      <div class="tcard soon">
-        <div class="thumb"><img src="assets/cat/final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
-        <div class="meta">
-          <h3>How to Draw a Penguin</h3>
-          <p>Coming soon · Animals</p>
+          <h3>More animals are coming!</h3>
+          <p>Dog, owl, penguin and many more</p>
           <span class="badge soon">In the works</span>
         </div>
       </div>
     </div>
+    <p class="empty" id="noResults">No drawings match that yet — try "cat", or tap All drawings.<br>New tutorials are added every week!</p>
   </section>
 
   <section>
@@ -141,5 +146,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Step-by-step drawing tutorials for kids, students, and beginners.<br>Draw the red lines. That's the whole secret.</p>
   </div>
 </footer>
+
+<script>
+(function(){
+  var input = document.getElementById("searchInput");
+  var count = document.getElementById("resultCount");
+  var empty = document.getElementById("noResults");
+  var soon = document.getElementById("soonTile");
+  var cards = Array.prototype.slice.call(document.querySelectorAll("#galleryGrid .tcard[data-category]"));
+  var state = { q: "", cat: "all", diff: "all" };
+
+  function apply(){
+    var shown = 0;
+    cards.forEach(function(c){
+      var ok = (state.cat === "all" || c.getAttribute("data-category") === state.cat)
+        && (state.diff === "all" || c.getAttribute("data-difficulty") === state.diff)
+        && (state.q === "" || c.getAttribute("data-search").indexOf(state.q) !== -1);
+      c.style.display = ok ? "" : "none";
+      if (ok) shown++;
+    });
+    var filtering = state.q !== "" || state.cat !== "all" || state.diff !== "all";
+    soon.style.display = filtering ? "none" : "";
+    empty.style.display = shown === 0 ? "block" : "none";
+    count.textContent = shown === 1 ? "1 drawing" : shown + " drawings";
+  }
+  input.addEventListener("input", function(){
+    state.q = input.value.trim().toLowerCase();
+    apply();
+  });
+  document.querySelectorAll(".chip").forEach(function(chip){
+    chip.addEventListener("click", function(){
+      var group = chip.getAttribute("data-group");
+      state[group] = chip.getAttribute("data-value");
+      document.querySelectorAll('.chip[data-group="' + group + '"]').forEach(function(c){
+        c.classList.toggle("on", c === chip);
+      });
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
 </body>
 </html>

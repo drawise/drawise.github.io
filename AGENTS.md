@@ -39,6 +39,33 @@ file for `GTM-WP3XNK83` — it must appear exactly twice per page).
   `muse@drawise.local`. NEVER put the owner's name in a commit, in any form.
 - Commit and push directly to `main`. No branches, no PRs.
 
+## Adding a tutorial (the only supported workflow)
+
+`tutorials.json` (repo root) is the source of truth for the tutorial list.
+Never hand-edit the gallery, chips, related cards, or sitemap — they are
+generated. To add a tutorial:
+
+1. Create `docs/assets/<slug>/` with `sheet.png`, `final.png`, `steps.js`
+   (steps.js must define `window.DRAWSIE_STEPS`).
+2. Copy `tools/tutorial-template.html` to
+   `docs/tutorials/how-to-draw-<slug>.html` and fill in the placeholders.
+3. Add one entry to `tutorials.json` (slug, title, subject, category,
+   difficulty Easy/Medium/Hard, steps, dateAdded, tags — include kid
+   synonyms like "kitty" so search finds it). The page filename defaults
+   to `how-to-draw-<slug>.html`; when it differs (e.g. the cat's page is
+   `how-to-draw-a-cat.html`), set the entry's `page` field to the exact
+   filename.
+4. Run `python3 tools/build.py` — it validates everything (asset files,
+   page, GTM exactly twice, manifest fields) and regenerates the homepage
+   gallery + filter chips, each page's "Draw these next" cards, the
+   sitemap, and `docs/assets/tutorials.json`. Fix any error it reports;
+   never commit a failing build.
+5. Commit everything the build touched, and push.
+
+Content between `<!-- GALLERY:START/END -->`, `<!-- CHIPS-*:START/END -->`,
+and `<!-- RELATED:START/END -->` markers is machine-generated — edits there
+will be overwritten by the next build.
+
 ## Site structure
 
 - `docs/index.html` — homepage + tutorial gallery.

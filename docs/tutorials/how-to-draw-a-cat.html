@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css?v=2">
+<link rel="stylesheet" href="../assets/style.css?v=3">
 <meta property="og:title" content="How to Draw a Cat in 8 Easy Steps — Drawsie">
 <meta property="og:description" content="A cute cat in 8 easy steps. Just follow the red lines!">
 <meta property="og:type" content="article">
@@ -60,6 +60,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 <main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="../">Home</a><span class="sep">›</span><a href="../#tutorials">Pets</a><span class="sep">›</span>How to Draw a Cat
+  </nav>
   <div class="tutorial-head">
     <h1>How to Draw a Cat</h1>
     <p>8 easy steps · For kids and beginners · The red lines are the new ones to draw in each step.</p>
@@ -92,6 +95,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <section>
+    <h2>Draw these next</h2>
+    <p class="sub">Finished the cat? Keep going with a friend for her.</p>
+    <div class="grid">
+      <!-- RELATED:START -->
+      <p class="sub" style="grid-column:1/-1">More tutorials are on the way — check back soon!</p>
+<!-- RELATED:END -->
+    </div>
+  </section>
+
+  <section>
     <h2>Tips for young artists</h2>
     <div class="tips">
       <ul>
@@ -115,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
 (function(){
   var OLD = "#33302c", NEW = "#e5484d";
-  var data = window.DRAWSIE_CAT;
+  var data = window.DRAWSIE_STEPS;
   var total = data.parts.length + 1; // 7 line steps + colored final
   var step = 1;
   var stage = document.getElementById("stage");
