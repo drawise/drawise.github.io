@@ -57,30 +57,18 @@ generated. To add a tutorial:
    filename.
 4. Run `python3 tools/build.py` — it validates everything (asset files,
    page, GTM exactly twice, manifest fields) and regenerates the homepage
-   featured strip + category tiles, the library page gallery + filter
-   chips, each page's "Draw these next" cards, the sitemap, and
-   `docs/assets/tutorials.json`. Fix any error it reports; never commit a
-   failing build.
+   gallery + filter chips, each page's "Draw these next" cards, the
+   sitemap, and `docs/assets/tutorials.json`. Fix any error it reports;
+   never commit a failing build.
 5. Commit everything the build touched, and push.
 
-Content between `<!-- FEATURED:START/END -->`, `<!-- CATEGORIES:START/END -->`,
-`<!-- GALLERY:START/END -->`, `<!-- CHIPS-*:START/END -->`, and
-`<!-- RELATED:START/END -->` markers is machine-generated — edits there
+Content between `<!-- GALLERY:START/END -->`, `<!-- CHIPS-*:START/END -->`,
+and `<!-- RELATED:START/END -->` markers is machine-generated — edits there
 will be overwritten by the next build.
-
-Homepage vs library: the homepage NEVER lists the whole library — it shows
-only the newest 8 tutorials (FEATURED) and one tile per category
-(CATEGORIES, linking to `tutorials.html#cat=<slug>`). The full searchable,
-filterable list lives on `docs/tutorials.html` (GALLERY + CHIPS markers).
-The homepage search box jumps to the library with the query applied
-(`tutorials.html#q=<query>`); the library also accepts `#cat=<slug>`.
 
 ## Site structure
 
-- `docs/index.html` — homepage: hero, how-it-works, search box, newest-8
-  featured strip, category tiles. Never the full tutorial list.
-- `docs/tutorials.html` — the library: every tutorial card, with the search
-  box and category/difficulty filter chips.
+- `docs/index.html` — homepage + tutorial gallery.
 - `docs/tutorials/how-to-draw-<subject>.html` — one page per tutorial, with
   HowTo JSON-LD, the draw-along player (when step data exists), and the
   printable sheet.

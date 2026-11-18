@@ -4,9 +4,8 @@
 Reads tutorials.json (repo root) and regenerates everything that depends on
 the tutorial list, so adding a tutorial never means hand-editing listings:
 
-  * homepage featured strip     (docs/index.html, between FEATURED markers — newest 8)
-  * homepage category tiles     (docs/index.html, between CATEGORIES markers)
-  * library gallery + chips     (docs/tutorials.html, GALLERY / CHIPS markers)
+  * homepage gallery cards      (docs/index.html, between GALLERY markers)
+  * homepage filter chips       (docs/index.html, between CHIPS markers)
   * related-tutorials cards     (each docs/tutorials/*.html, RELATED markers)
   * docs/sitemap.xml
   * docs/assets/tutorials.json  (public index, also used by the future app)
@@ -107,47 +106,24 @@ def main():
     if errors:
         fail(errors)
 
-    # ---- homepage: featured strip (newest 8) + category tiles -------------
+    # ---- homepage: gallery + chips --------------------------------------
     index_path = os.path.join(DOCS, "index.html")
     index = open(index_path).read()
-    featured = tuts[-8:][::-1]  # manifest order is production order; newest first
-    index = replace_region(index, "FEATURED",
-                           "\n".join(card(t, cats[t["category"]], "") for t in featured))
-    used_cats = [c for c in manifest["categories"] if any(t["category"] == c["slug"] for t in tuts)]
-    tiles = []
-    for c in used_cats:
-        members = [t for t in tuts if t["category"] == c["slug"]]
-        first, n = members[0], len(members)
-        tiles.append(
-            f'      <a class="tcard" href="tutorials.html#cat={c["slug"]}">\n'
-            f'        <div class="thumb"><img src="assets/{first["slug"]}/final.png" alt="Cute {first["subject"].lower()} drawing" loading="lazy"></div>\n'
-            f'        <div class="meta">\n'
-            f'          <h3>{c["name"]}</h3>\n'
-            f'          <p>{n} tutorial{"s" if n != 1 else ""}</p>\n'
-            f'          <span class="badge">Browse</span>\n'
-            f'        </div>\n'
-            f'      </a>'
-        )
-    index = replace_region(index, "CATEGORIES", "\n".join(tiles))
-    open(index_path, "w").write(index)
-
-    # ---- library page: full gallery + filter chips -------------------------
-    lib_path = os.path.join(DOCS, "tutorials.html")
-    lib = open(lib_path).read()
     cards = "\n".join(card(t, cats[t["category"]], "") for t in tuts)
-    lib = replace_region(lib, "GALLERY", cards)
+    index = replace_region(index, "GALLERY", cards)
 
+    used_cats = [c for c in manifest["categories"] if any(t["category"] == c["slug"] for t in tuts)]
     cat_chips = ['<button type="button" class="chip on" data-group="cat" data-value="all">All drawings</button>']
     for c in used_cats:
         cat_chips.append(f'<button type="button" class="chip" data-group="cat" data-value="{c["slug"]}">{c["name"]}</button>')
-    lib = replace_region(lib, "CHIPS-CAT", "        " + "\n        ".join(cat_chips))
+    index = replace_region(index, "CHIPS-CAT", "        " + "\n        ".join(cat_chips))
 
     used_diffs = [d for d in DIFF_ORDER if any(t["difficulty"] == d for t in tuts)]
     diff_chips = ['<button type="button" class="chip on" data-group="diff" data-value="all">Any level</button>']
     for d in used_diffs:
         diff_chips.append(f'<button type="button" class="chip" data-group="diff" data-value="{d.lower()}">{d}</button>')
-    lib = replace_region(lib, "CHIPS-DIFF", "        " + "\n        ".join(diff_chips))
-    open(lib_path, "w").write(lib)
+    index = replace_region(index, "CHIPS-DIFF", "        " + "\n        ".join(diff_chips))
+    open(index_path, "w").write(index)
 
     # ---- tutorial pages: related cards -----------------------------------
     for t in tuts:
@@ -166,8 +142,7 @@ def main():
 
     # ---- sitemap ----------------------------------------------------------
     latest = max(t["dateAdded"] for t in tuts)
-    urls = [f"  <url>\n    <loc>{SITE}/</loc>\n    <lastmod>{latest}</lastmod>\n  </url>",
-            f"  <url>\n    <loc>{SITE}/tutorials.html</loc>\n    <lastmod>{latest}</lastmod>\n  </url>"]
+    urls = [f"  <url>\n    <loc>{SITE}/</loc>\n    <lastmod>{latest}</lastmod>\n  </url>"]
     for t in sorted(tuts, key=lambda x: x["slug"]):
         urls.append(
             f"  <url>\n    <loc>{SITE}/tutorials/{page_file(t)}</loc>\n"
@@ -194,7 +169,7 @@ def main():
         json.dump(public, f, indent=2)
         f.write("\n")
 
-    print(f"OK: {len(tuts)} tutorial(s); featured, tiles, library, related, sitemap, index regenerated.")
+    print(f"OK: {len(tuts)} tutorial(s); gallery, chips, related, sitemap, index regenerated.")
 
 
 if __name__ == "__main__":
