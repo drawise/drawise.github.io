@@ -115,3 +115,12 @@ Ice Cream, Cupcake, Turtle, Unicorn.
   equivalents only — baby dragon, cute robot, etc.
 - House style is the approved cute/chibi vector style; every tutorial is
   cumulative vector step data (see AGENTS.md).
+
+## Site scaling note (decided Nov 17, 2026)
+
+The homepage lists ALL tutorials with in-place search + filters for now —
+simple, and fine at the current size. A slim-homepage + library-page
+split was built and then reverted the same day: the library page had the
+same all-in-one-list problem at 300 tutorials. Revisit when the library
+gets large (~100+): the real fix then is pagination / load-more or
+per-category pages, not just moving the list.
