@@ -460,6 +460,84 @@
         "farm",
         "kid"
       ]
+    },
+    {
+      "slug": "parrot",
+      "page": "how-to-draw-a-parrot.html",
+      "title": "How to Draw a Parrot",
+      "subject": "Parrot",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bird",
+        "tropical",
+        "green"
+      ]
+    },
+    {
+      "slug": "robin",
+      "page": "how-to-draw-a-robin.html",
+      "title": "How to Draw a Robin",
+      "subject": "Robin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bird",
+        "red breast",
+        "spring"
+      ]
+    },
+    {
+      "slug": "baby-penguin",
+      "page": "how-to-draw-a-baby-penguin.html",
+      "title": "How to Draw a Baby Penguin",
+      "subject": "Baby Penguin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "penguin",
+        "bird",
+        "baby",
+        "snow"
+      ]
+    },
+    {
+      "slug": "donut",
+      "page": "how-to-draw-a-donut.html",
+      "title": "How to Draw a Donut",
+      "subject": "Donut",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "doughnut",
+        "dessert",
+        "sweet",
+        "sprinkles"
+      ]
+    },
+    {
+      "slug": "strawberry",
+      "page": "how-to-draw-a-strawberry.html",
+      "title": "How to Draw a Strawberry",
+      "subject": "Strawberry",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "fruit",
+        "berry",
+        "sweet",
+        "red"
+      ]
     }
   ]
 }

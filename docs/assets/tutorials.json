@@ -476,6 +476,94 @@
       "sheet": "assets/goat/sheet.png",
       "thumb": "assets/goat/final.png",
       "stepsData": "assets/goat/steps.js"
+    },
+    {
+      "slug": "parrot",
+      "title": "How to Draw a Parrot",
+      "subject": "Parrot",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 9,
+      "tags": [
+        "bird",
+        "tropical",
+        "green"
+      ],
+      "page": "tutorials/how-to-draw-a-parrot.html",
+      "sheet": "assets/parrot/sheet.png",
+      "thumb": "assets/parrot/final.png",
+      "stepsData": "assets/parrot/steps.js"
+    },
+    {
+      "slug": "robin",
+      "title": "How to Draw a Robin",
+      "subject": "Robin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "bird",
+        "red breast",
+        "spring"
+      ],
+      "page": "tutorials/how-to-draw-a-robin.html",
+      "sheet": "assets/robin/sheet.png",
+      "thumb": "assets/robin/final.png",
+      "stepsData": "assets/robin/steps.js"
+    },
+    {
+      "slug": "baby-penguin",
+      "title": "How to Draw a Baby Penguin",
+      "subject": "Baby Penguin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "penguin",
+        "bird",
+        "baby",
+        "snow"
+      ],
+      "page": "tutorials/how-to-draw-a-baby-penguin.html",
+      "sheet": "assets/baby-penguin/sheet.png",
+      "thumb": "assets/baby-penguin/final.png",
+      "stepsData": "assets/baby-penguin/steps.js"
+    },
+    {
+      "slug": "donut",
+      "title": "How to Draw a Donut",
+      "subject": "Donut",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "doughnut",
+        "dessert",
+        "sweet",
+        "sprinkles"
+      ],
+      "page": "tutorials/how-to-draw-a-donut.html",
+      "sheet": "assets/donut/sheet.png",
+      "thumb": "assets/donut/final.png",
+      "stepsData": "assets/donut/steps.js"
+    },
+    {
+      "slug": "strawberry",
+      "title": "How to Draw a Strawberry",
+      "subject": "Strawberry",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "fruit",
+        "berry",
+        "sweet",
+        "red"
+      ],
+      "page": "tutorials/how-to-draw-a-strawberry.html",
+      "sheet": "assets/strawberry/sheet.png",
+      "thumb": "assets/strawberry/final.png",
+      "stepsData": "assets/strawberry/steps.js"
     }
   ]
 }
