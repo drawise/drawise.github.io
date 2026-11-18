@@ -652,6 +652,490 @@
       "sheet": "assets/christmas-tree/sheet.png",
       "thumb": "assets/christmas-tree/final.png",
       "stepsData": "assets/christmas-tree/steps.js"
+    },
+    {
+      "slug": "octopus",
+      "title": "How to Draw an Octopus",
+      "subject": "Octopus",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "sea",
+        "tentacles",
+        "ocean"
+      ],
+      "page": "tutorials/how-to-draw-an-octopus.html",
+      "sheet": "assets/octopus/sheet.png",
+      "thumb": "assets/octopus/final.png",
+      "stepsData": "assets/octopus/steps.js"
+    },
+    {
+      "slug": "shark",
+      "title": "How to Draw a Shark",
+      "subject": "Shark",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "sea",
+        "fish",
+        "ocean",
+        "teeth"
+      ],
+      "page": "tutorials/how-to-draw-a-shark.html",
+      "sheet": "assets/shark/sheet.png",
+      "thumb": "assets/shark/final.png",
+      "stepsData": "assets/shark/steps.js"
+    },
+    {
+      "slug": "whale",
+      "title": "How to Draw a Whale",
+      "subject": "Whale",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "sea",
+        "ocean",
+        "blue"
+      ],
+      "page": "tutorials/how-to-draw-a-whale.html",
+      "sheet": "assets/whale/sheet.png",
+      "thumb": "assets/whale/final.png",
+      "stepsData": "assets/whale/steps.js"
+    },
+    {
+      "slug": "crab",
+      "title": "How to Draw a Crab",
+      "subject": "Crab",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "sea",
+        "claws",
+        "beach"
+      ],
+      "page": "tutorials/how-to-draw-a-crab.html",
+      "sheet": "assets/crab/sheet.png",
+      "thumb": "assets/crab/final.png",
+      "stepsData": "assets/crab/steps.js"
+    },
+    {
+      "slug": "seahorse",
+      "title": "How to Draw a Seahorse",
+      "subject": "Seahorse",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "sea",
+        "ocean",
+        "horse"
+      ],
+      "page": "tutorials/how-to-draw-a-seahorse.html",
+      "sheet": "assets/seahorse/sheet.png",
+      "thumb": "assets/seahorse/final.png",
+      "stepsData": "assets/seahorse/steps.js"
+    },
+    {
+      "slug": "robot",
+      "title": "How to Draw a Robot",
+      "subject": "Robot",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "machine",
+        "toy",
+        "tech"
+      ],
+      "page": "tutorials/how-to-draw-a-robot.html",
+      "sheet": "assets/robot/sheet.png",
+      "thumb": "assets/robot/final.png",
+      "stepsData": "assets/robot/steps.js"
+    },
+    {
+      "slug": "rocket",
+      "title": "How to Draw a Rocket",
+      "subject": "Rocket",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "space",
+        "ship",
+        "stars"
+      ],
+      "page": "tutorials/how-to-draw-a-rocket.html",
+      "sheet": "assets/rocket/sheet.png",
+      "thumb": "assets/rocket/final.png",
+      "stepsData": "assets/rocket/steps.js"
+    },
+    {
+      "slug": "alien",
+      "title": "How to Draw an Alien",
+      "subject": "Alien",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "ufo",
+        "space",
+        "martian"
+      ],
+      "page": "tutorials/how-to-draw-an-alien.html",
+      "sheet": "assets/alien/sheet.png",
+      "thumb": "assets/alien/final.png",
+      "stepsData": "assets/alien/steps.js"
+    },
+    {
+      "slug": "rainbow",
+      "title": "How to Draw a Rainbow",
+      "subject": "Rainbow",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 4,
+      "tags": [
+        "colors",
+        "sky",
+        "cloud",
+        "weather"
+      ],
+      "page": "tutorials/how-to-draw-a-rainbow.html",
+      "sheet": "assets/rainbow/sheet.png",
+      "thumb": "assets/rainbow/final.png",
+      "stepsData": "assets/rainbow/steps.js"
+    },
+    {
+      "slug": "heart-with-wings",
+      "title": "How to Draw a Heart with Wings",
+      "subject": "Heart with Wings",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "heart",
+        "wings",
+        "love",
+        "angel"
+      ],
+      "page": "tutorials/how-to-draw-a-heart-with-wings.html",
+      "sheet": "assets/heart-with-wings/sheet.png",
+      "thumb": "assets/heart-with-wings/final.png",
+      "stepsData": "assets/heart-with-wings/steps.js"
+    },
+    {
+      "slug": "mermaid",
+      "title": "How to Draw a Mermaid",
+      "subject": "Mermaid",
+      "category": "fantasy",
+      "difficulty": "Medium",
+      "steps": 10,
+      "tags": [
+        "sea",
+        "princess",
+        "ocean"
+      ],
+      "page": "tutorials/how-to-draw-a-mermaid.html",
+      "sheet": "assets/mermaid/sheet.png",
+      "thumb": "assets/mermaid/final.png",
+      "stepsData": "assets/mermaid/steps.js"
+    },
+    {
+      "slug": "fairy",
+      "title": "How to Draw a Fairy",
+      "subject": "Fairy",
+      "category": "fantasy",
+      "difficulty": "Medium",
+      "steps": 10,
+      "tags": [
+        "magic",
+        "wings",
+        "wand"
+      ],
+      "page": "tutorials/how-to-draw-a-fairy.html",
+      "sheet": "assets/fairy/sheet.png",
+      "thumb": "assets/fairy/final.png",
+      "stepsData": "assets/fairy/steps.js"
+    },
+    {
+      "slug": "hot-air-balloon",
+      "title": "How to Draw a Hot Air Balloon",
+      "subject": "Hot Air Balloon",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "balloon",
+        "sky",
+        "fly"
+      ],
+      "page": "tutorials/how-to-draw-a-hot-air-balloon.html",
+      "sheet": "assets/hot-air-balloon/sheet.png",
+      "thumb": "assets/hot-air-balloon/final.png",
+      "stepsData": "assets/hot-air-balloon/steps.js"
+    },
+    {
+      "slug": "hamster",
+      "title": "How to Draw a Hamster",
+      "subject": "Hamster",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "pet",
+        "animal",
+        "cute"
+      ],
+      "page": "tutorials/how-to-draw-a-hamster.html",
+      "sheet": "assets/hamster/sheet.png",
+      "thumb": "assets/hamster/final.png",
+      "stepsData": "assets/hamster/steps.js"
+    },
+    {
+      "slug": "goldfish",
+      "title": "How to Draw a Goldfish",
+      "subject": "Goldfish",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "fish",
+        "bowl",
+        "pet",
+        "water"
+      ],
+      "page": "tutorials/how-to-draw-a-goldfish.html",
+      "sheet": "assets/goldfish/sheet.png",
+      "thumb": "assets/goldfish/final.png",
+      "stepsData": "assets/goldfish/steps.js"
+    },
+    {
+      "slug": "puppy-face",
+      "title": "How to Draw a Puppy Face",
+      "subject": "Puppy Face",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "dog",
+        "puppy",
+        "face",
+        "pet"
+      ],
+      "page": "tutorials/how-to-draw-a-puppy-face.html",
+      "sheet": "assets/puppy-face/sheet.png",
+      "thumb": "assets/puppy-face/final.png",
+      "stepsData": "assets/puppy-face/steps.js"
+    },
+    {
+      "slug": "kitten-face",
+      "title": "How to Draw a Kitten Face",
+      "subject": "Kitten Face",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "cat",
+        "kitten",
+        "kitty",
+        "face"
+      ],
+      "page": "tutorials/how-to-draw-a-kitten-face.html",
+      "sheet": "assets/kitten-face/sheet.png",
+      "thumb": "assets/kitten-face/final.png",
+      "stepsData": "assets/kitten-face/steps.js"
+    },
+    {
+      "slug": "cow",
+      "title": "How to Draw a Cow",
+      "subject": "Cow",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "farm",
+        "moo",
+        "spots"
+      ],
+      "page": "tutorials/how-to-draw-a-cow.html",
+      "sheet": "assets/cow/sheet.png",
+      "thumb": "assets/cow/final.png",
+      "stepsData": "assets/cow/steps.js"
+    },
+    {
+      "slug": "watermelon",
+      "title": "How to Draw a Watermelon",
+      "subject": "Watermelon",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 4,
+      "tags": [
+        "fruit",
+        "summer",
+        "slice"
+      ],
+      "page": "tutorials/how-to-draw-a-watermelon.html",
+      "sheet": "assets/watermelon/sheet.png",
+      "thumb": "assets/watermelon/final.png",
+      "stepsData": "assets/watermelon/steps.js"
+    },
+    {
+      "slug": "bubble-tea",
+      "title": "How to Draw a Bubble Tea",
+      "subject": "Bubble Tea",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "boba",
+        "drink",
+        "tea",
+        "cup"
+      ],
+      "page": "tutorials/how-to-draw-a-bubble-tea.html",
+      "sheet": "assets/bubble-tea/sheet.png",
+      "thumb": "assets/bubble-tea/final.png",
+      "stepsData": "assets/bubble-tea/steps.js"
+    },
+    {
+      "slug": "avocado",
+      "title": "How to Draw an Avocado",
+      "subject": "Avocado",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "fruit",
+        "green",
+        "pit"
+      ],
+      "page": "tutorials/how-to-draw-an-avocado.html",
+      "sheet": "assets/avocado/sheet.png",
+      "thumb": "assets/avocado/final.png",
+      "stepsData": "assets/avocado/steps.js"
+    },
+    {
+      "slug": "pizza",
+      "title": "How to Draw a Pizza",
+      "subject": "Pizza",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "food",
+        "cheese",
+        "slice"
+      ],
+      "page": "tutorials/how-to-draw-a-pizza.html",
+      "sheet": "assets/pizza/sheet.png",
+      "thumb": "assets/pizza/final.png",
+      "stepsData": "assets/pizza/steps.js"
+    },
+    {
+      "slug": "sunflower",
+      "title": "How to Draw a Sunflower",
+      "subject": "Sunflower",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "flower",
+        "summer",
+        "garden"
+      ],
+      "page": "tutorials/how-to-draw-a-sunflower.html",
+      "sheet": "assets/sunflower/sheet.png",
+      "thumb": "assets/sunflower/final.png",
+      "stepsData": "assets/sunflower/steps.js"
+    },
+    {
+      "slug": "pumpkin",
+      "title": "How to Draw a Pumpkin",
+      "subject": "Pumpkin",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "halloween",
+        "fall",
+        "autumn"
+      ],
+      "page": "tutorials/how-to-draw-a-pumpkin.html",
+      "sheet": "assets/pumpkin/sheet.png",
+      "thumb": "assets/pumpkin/final.png",
+      "stepsData": "assets/pumpkin/steps.js"
+    },
+    {
+      "slug": "easter-egg",
+      "title": "How to Draw an Easter Egg",
+      "subject": "Easter Egg",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 4,
+      "tags": [
+        "easter",
+        "egg",
+        "spring"
+      ],
+      "page": "tutorials/how-to-draw-an-easter-egg.html",
+      "sheet": "assets/easter-egg/sheet.png",
+      "thumb": "assets/easter-egg/final.png",
+      "stepsData": "assets/easter-egg/steps.js"
+    },
+    {
+      "slug": "leaf-and-acorn",
+      "title": "How to Draw a Leaf and Acorn",
+      "subject": "Leaf and Acorn",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "acorn",
+        "leaf",
+        "fall",
+        "autumn"
+      ],
+      "page": "tutorials/how-to-draw-a-leaf-and-acorn.html",
+      "sheet": "assets/leaf-and-acorn/sheet.png",
+      "thumb": "assets/leaf-and-acorn/final.png",
+      "stepsData": "assets/leaf-and-acorn/steps.js"
+    },
+    {
+      "slug": "baby-dragon",
+      "title": "How to Draw a Baby Dragon",
+      "subject": "Baby Dragon",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 9,
+      "tags": [
+        "dragon",
+        "magic",
+        "cute"
+      ],
+      "page": "tutorials/how-to-draw-a-baby-dragon.html",
+      "sheet": "assets/baby-dragon/sheet.png",
+      "thumb": "assets/baby-dragon/final.png",
+      "stepsData": "assets/baby-dragon/steps.js"
+    },
+    {
+      "slug": "castle",
+      "title": "How to Draw a Castle",
+      "subject": "Castle",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "princess",
+        "king",
+        "royal"
+      ],
+      "page": "tutorials/how-to-draw-a-castle.html",
+      "sheet": "assets/castle/sheet.png",
+      "thumb": "assets/castle/final.png",
+      "stepsData": "assets/castle/steps.js"
     }
   ]
 }

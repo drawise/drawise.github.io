@@ -616,6 +616,434 @@
         "holiday",
         "winter"
       ]
+    },
+    {
+      "slug": "octopus",
+      "page": "how-to-draw-an-octopus.html",
+      "title": "How to Draw an Octopus",
+      "subject": "Octopus",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "tentacles",
+        "ocean"
+      ]
+    },
+    {
+      "slug": "shark",
+      "page": "how-to-draw-a-shark.html",
+      "title": "How to Draw a Shark",
+      "subject": "Shark",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "fish",
+        "ocean",
+        "teeth"
+      ]
+    },
+    {
+      "slug": "whale",
+      "page": "how-to-draw-a-whale.html",
+      "title": "How to Draw a Whale",
+      "subject": "Whale",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "ocean",
+        "blue"
+      ]
+    },
+    {
+      "slug": "crab",
+      "page": "how-to-draw-a-crab.html",
+      "title": "How to Draw a Crab",
+      "subject": "Crab",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "claws",
+        "beach"
+      ]
+    },
+    {
+      "slug": "seahorse",
+      "page": "how-to-draw-a-seahorse.html",
+      "title": "How to Draw a Seahorse",
+      "subject": "Seahorse",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "ocean",
+        "horse"
+      ]
+    },
+    {
+      "slug": "robot",
+      "page": "how-to-draw-a-robot.html",
+      "title": "How to Draw a Robot",
+      "subject": "Robot",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "machine",
+        "toy",
+        "tech"
+      ]
+    },
+    {
+      "slug": "rocket",
+      "page": "how-to-draw-a-rocket.html",
+      "title": "How to Draw a Rocket",
+      "subject": "Rocket",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "space",
+        "ship",
+        "stars"
+      ]
+    },
+    {
+      "slug": "alien",
+      "page": "how-to-draw-an-alien.html",
+      "title": "How to Draw an Alien",
+      "subject": "Alien",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "ufo",
+        "space",
+        "martian"
+      ]
+    },
+    {
+      "slug": "rainbow",
+      "page": "how-to-draw-a-rainbow.html",
+      "title": "How to Draw a Rainbow",
+      "subject": "Rainbow",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 4,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "colors",
+        "sky",
+        "cloud",
+        "weather"
+      ]
+    },
+    {
+      "slug": "heart-with-wings",
+      "page": "how-to-draw-a-heart-with-wings.html",
+      "title": "How to Draw a Heart with Wings",
+      "subject": "Heart with Wings",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "heart",
+        "wings",
+        "love",
+        "angel"
+      ]
+    },
+    {
+      "slug": "mermaid",
+      "page": "how-to-draw-a-mermaid.html",
+      "title": "How to Draw a Mermaid",
+      "subject": "Mermaid",
+      "category": "fantasy",
+      "difficulty": "Medium",
+      "steps": 10,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "princess",
+        "ocean"
+      ]
+    },
+    {
+      "slug": "fairy",
+      "page": "how-to-draw-a-fairy.html",
+      "title": "How to Draw a Fairy",
+      "subject": "Fairy",
+      "category": "fantasy",
+      "difficulty": "Medium",
+      "steps": 10,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "magic",
+        "wings",
+        "wand"
+      ]
+    },
+    {
+      "slug": "hot-air-balloon",
+      "page": "how-to-draw-a-hot-air-balloon.html",
+      "title": "How to Draw a Hot Air Balloon",
+      "subject": "Hot Air Balloon",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "balloon",
+        "sky",
+        "fly"
+      ]
+    },
+    {
+      "slug": "hamster",
+      "page": "how-to-draw-a-hamster.html",
+      "title": "How to Draw a Hamster",
+      "subject": "Hamster",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "pet",
+        "animal",
+        "cute"
+      ]
+    },
+    {
+      "slug": "goldfish",
+      "page": "how-to-draw-a-goldfish.html",
+      "title": "How to Draw a Goldfish",
+      "subject": "Goldfish",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "fish",
+        "bowl",
+        "pet",
+        "water"
+      ]
+    },
+    {
+      "slug": "puppy-face",
+      "page": "how-to-draw-a-puppy-face.html",
+      "title": "How to Draw a Puppy Face",
+      "subject": "Puppy Face",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "dog",
+        "puppy",
+        "face",
+        "pet"
+      ]
+    },
+    {
+      "slug": "kitten-face",
+      "page": "how-to-draw-a-kitten-face.html",
+      "title": "How to Draw a Kitten Face",
+      "subject": "Kitten Face",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "cat",
+        "kitten",
+        "kitty",
+        "face"
+      ]
+    },
+    {
+      "slug": "cow",
+      "page": "how-to-draw-a-cow.html",
+      "title": "How to Draw a Cow",
+      "subject": "Cow",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "farm",
+        "moo",
+        "spots"
+      ]
+    },
+    {
+      "slug": "watermelon",
+      "page": "how-to-draw-a-watermelon.html",
+      "title": "How to Draw a Watermelon",
+      "subject": "Watermelon",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 4,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "fruit",
+        "summer",
+        "slice"
+      ]
+    },
+    {
+      "slug": "bubble-tea",
+      "page": "how-to-draw-a-bubble-tea.html",
+      "title": "How to Draw a Bubble Tea",
+      "subject": "Bubble Tea",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "boba",
+        "drink",
+        "tea",
+        "cup"
+      ]
+    },
+    {
+      "slug": "avocado",
+      "page": "how-to-draw-an-avocado.html",
+      "title": "How to Draw an Avocado",
+      "subject": "Avocado",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "fruit",
+        "green",
+        "pit"
+      ]
+    },
+    {
+      "slug": "pizza",
+      "page": "how-to-draw-a-pizza.html",
+      "title": "How to Draw a Pizza",
+      "subject": "Pizza",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "food",
+        "cheese",
+        "slice"
+      ]
+    },
+    {
+      "slug": "sunflower",
+      "page": "how-to-draw-a-sunflower.html",
+      "title": "How to Draw a Sunflower",
+      "subject": "Sunflower",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "flower",
+        "summer",
+        "garden"
+      ]
+    },
+    {
+      "slug": "pumpkin",
+      "page": "how-to-draw-a-pumpkin.html",
+      "title": "How to Draw a Pumpkin",
+      "subject": "Pumpkin",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "halloween",
+        "fall",
+        "autumn"
+      ]
+    },
+    {
+      "slug": "easter-egg",
+      "page": "how-to-draw-an-easter-egg.html",
+      "title": "How to Draw an Easter Egg",
+      "subject": "Easter Egg",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 4,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "easter",
+        "egg",
+        "spring"
+      ]
+    },
+    {
+      "slug": "leaf-and-acorn",
+      "page": "how-to-draw-a-leaf-and-acorn.html",
+      "title": "How to Draw a Leaf and Acorn",
+      "subject": "Leaf and Acorn",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "acorn",
+        "leaf",
+        "fall",
+        "autumn"
+      ]
+    },
+    {
+      "slug": "baby-dragon",
+      "page": "how-to-draw-a-baby-dragon.html",
+      "title": "How to Draw a Baby Dragon",
+      "subject": "Baby Dragon",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "dragon",
+        "magic",
+        "cute"
+      ]
+    },
+    {
+      "slug": "castle",
+      "page": "how-to-draw-a-castle.html",
+      "title": "How to Draw a Castle",
+      "subject": "Castle",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "princess",
+        "king",
+        "royal"
+      ]
     }
   ]
 }
