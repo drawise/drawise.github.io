@@ -45,9 +45,12 @@ file for `GTM-WP3XNK83` — it must appear exactly twice per page).
 - `docs/tutorials/how-to-draw-<subject>.html` — one page per tutorial, with
   HowTo JSON-LD, the draw-along player (when step data exists), and the
   printable sheet.
-- `docs/assets/` — shared `style.css` (bump the `?v=` query when it changes),
-  `favicon.svg`, per-tutorial step data (`<subject>-steps.js`), and `img/`
-  (sheets + thumbnails).
+- `docs/assets/` — shared files at the top level (`style.css` — bump the
+  `?v=` query when it changes — and `favicon.svg`), plus **one folder per
+  tutorial**: `docs/assets/<subject>/` containing exactly that tutorial's
+  `sheet.png` (printable sheet), `final.png` (finished-drawing thumbnail),
+  and `steps.js` (player step data). Adding a tutorial = adding one folder;
+  never put tutorial files in shared folders.
 - `docs/robots.txt`, `docs/sitemap.xml` — add every new page to the sitemap.
 
 ## Content rules
