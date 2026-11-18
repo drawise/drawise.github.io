@@ -90,6 +90,22 @@ will be overwritten by the next build.
     shared folders.
 - `docs/robots.txt`, `docs/sitemap.xml` — add every new page to the sitemap.
 
+## REQUIRED on every image: the wordmark
+
+Every published image (`sheet.png` and `final.png` for every tutorial)
+MUST carry the wordmark in the **bottom-right corner of the final panel**:
+the paw logo mark followed by the text **"by Drawise"**, in a soft taupe
+(`#b3a68c`), small and unobtrusive but legible. Images get shared and
+re-pinned out of context — the wordmark is how they stay ours.
+
+- Sheets get the wordmark from the sheet generator (a wordmark group drawn
+  into the last panel before rendering) — never stamp it on afterwards as
+  an afterthought, and never publish an unmarked image.
+- `final.png` is cropped from the sheet's final panel, so it inherits the
+  wordmark from the same corner. Check the crop still shows it.
+- If you ever produce any other image for the site (social cards, banners),
+  it carries the same wordmark in its bottom-right corner.
+
 ## Content rules
 
 - Tutorials are produced as cumulative **vector** step data (SVG): each panel
