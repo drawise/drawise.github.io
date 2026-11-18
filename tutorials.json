@@ -1044,6 +1044,81 @@
         "king",
         "royal"
       ]
+    },
+    {
+      "slug": "dolphin",
+      "page": "how-to-draw-a-dolphin.html",
+      "title": "How to Draw a Dolphin",
+      "subject": "Dolphin",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "ocean",
+        "jump"
+      ]
+    },
+    {
+      "slug": "jellyfish",
+      "page": "how-to-draw-a-jellyfish.html",
+      "title": "How to Draw a Jellyfish",
+      "subject": "Jellyfish",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea",
+        "ocean",
+        "tentacles"
+      ]
+    },
+    {
+      "slug": "elephant",
+      "page": "how-to-draw-an-elephant.html",
+      "title": "How to Draw an Elephant",
+      "subject": "Elephant",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "trunk",
+        "big",
+        "safari"
+      ]
+    },
+    {
+      "slug": "lion",
+      "page": "how-to-draw-a-lion.html",
+      "title": "How to Draw a Lion",
+      "subject": "Lion",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "mane",
+        "king",
+        "safari"
+      ]
+    },
+    {
+      "slug": "monkey",
+      "page": "how-to-draw-a-monkey.html",
+      "title": "How to Draw a Monkey",
+      "subject": "Monkey",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "banana",
+        "tree",
+        "cheeky"
+      ]
     }
   ]
 }

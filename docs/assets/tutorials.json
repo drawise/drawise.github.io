@@ -1136,6 +1136,91 @@
       "sheet": "assets/castle/sheet.png",
       "thumb": "assets/castle/final.png",
       "stepsData": "assets/castle/steps.js"
+    },
+    {
+      "slug": "dolphin",
+      "title": "How to Draw a Dolphin",
+      "subject": "Dolphin",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "sea",
+        "ocean",
+        "jump"
+      ],
+      "page": "tutorials/how-to-draw-a-dolphin.html",
+      "sheet": "assets/dolphin/sheet.png",
+      "thumb": "assets/dolphin/final.png",
+      "stepsData": "assets/dolphin/steps.js"
+    },
+    {
+      "slug": "jellyfish",
+      "title": "How to Draw a Jellyfish",
+      "subject": "Jellyfish",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "sea",
+        "ocean",
+        "tentacles"
+      ],
+      "page": "tutorials/how-to-draw-a-jellyfish.html",
+      "sheet": "assets/jellyfish/sheet.png",
+      "thumb": "assets/jellyfish/final.png",
+      "stepsData": "assets/jellyfish/steps.js"
+    },
+    {
+      "slug": "elephant",
+      "title": "How to Draw an Elephant",
+      "subject": "Elephant",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "trunk",
+        "big",
+        "safari"
+      ],
+      "page": "tutorials/how-to-draw-an-elephant.html",
+      "sheet": "assets/elephant/sheet.png",
+      "thumb": "assets/elephant/final.png",
+      "stepsData": "assets/elephant/steps.js"
+    },
+    {
+      "slug": "lion",
+      "title": "How to Draw a Lion",
+      "subject": "Lion",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "mane",
+        "king",
+        "safari"
+      ],
+      "page": "tutorials/how-to-draw-a-lion.html",
+      "sheet": "assets/lion/sheet.png",
+      "thumb": "assets/lion/final.png",
+      "stepsData": "assets/lion/steps.js"
+    },
+    {
+      "slug": "monkey",
+      "title": "How to Draw a Monkey",
+      "subject": "Monkey",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "banana",
+        "tree",
+        "cheeky"
+      ],
+      "page": "tutorials/how-to-draw-a-monkey.html",
+      "sheet": "assets/monkey/sheet.png",
+      "thumb": "assets/monkey/final.png",
+      "stepsData": "assets/monkey/steps.js"
     }
   ]
 }
