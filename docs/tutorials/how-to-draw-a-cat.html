@@ -7,8 +7,8 @@
 <meta name="description" content="Learn how to draw a cute cat in 8 easy steps. Follow the red lines, panel by panel — a free printable step-by-step drawing tutorial for kids and beginners.">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=2">
 <meta property="og:title" content="How to Draw a Cat in 8 Easy Steps — Drawsie">
 <meta property="og:description" content="A cute cat in 8 easy steps. Just follow the red lines!">
 <meta property="og:type" content="article">
@@ -51,17 +51,34 @@
 <main class="wrap">
   <div class="tutorial-head">
     <h1>How to Draw a Cat</h1>
-    <p>8 easy steps · For kids and beginners · The red lines are the new ones to draw in each panel.</p>
+    <p>8 easy steps · For kids and beginners · The red lines are the new ones to draw in each step.</p>
   </div>
 
-  <div class="sheet">
-    <img src="../assets/img/how-to-draw-a-cat.png" alt="How to draw a cat in 8 steps — each panel adds new lines in red, ending with a colored cat wearing a collar and bell">
-  </div>
+  <section style="padding-top:6px">
+    <h2>Draw along on screen</h2>
+    <p class="sub">Tap Next after each step. Take as long as you like on each one.</p>
+    <div class="player" id="player">
+      <div class="stage" id="stage" aria-live="polite"></div>
+      <div class="caption" id="caption"></div>
+      <div class="controls">
+        <button class="btn secondary" id="prevBtn" type="button">&#8592; Back</button>
+        <div class="dots" id="dots"></div>
+        <button class="btn" id="nextBtn" type="button">Next &#8594;</button>
+      </div>
+    </div>
+  </section>
 
-  <div class="actions">
-    <a class="btn" href="../assets/img/how-to-draw-a-cat.png">Open the printable sheet</a>
-    <a class="btn secondary" href="../#tutorials">More tutorials</a>
-  </div>
+  <section>
+    <h2>Or print the sheet</h2>
+    <p class="sub">All 8 steps on one page — print it and draw on paper, anywhere.</p>
+    <div class="sheet">
+      <img src="../assets/img/how-to-draw-a-cat.png" alt="How to draw a cat in 8 steps — each panel adds new lines in red, ending with a colored cat wearing a collar and bell">
+    </div>
+    <div class="actions">
+      <a class="btn" href="../assets/img/how-to-draw-a-cat.png">Open the printable sheet</a>
+      <a class="btn secondary" href="../#tutorials">More tutorials</a>
+    </div>
+  </section>
 
   <section>
     <h2>Tips for young artists</h2>
@@ -69,7 +86,7 @@
       <ul>
         <li><strong>Draw lightly at first.</strong> Light pencil lines are easy to erase — go over them darker when you're happy.</li>
         <li><strong>Shapes, not details.</strong> The head is just an oval and the ears are triangles. Every Drawsie drawing starts with simple shapes.</li>
-        <li><strong>Mistakes are fine.</strong> Wobbly lines make your cat <em>yours</em>. Even our guide cat is a little wobbly.</li>
+        <li><strong>Mistakes are fine.</strong> Wobbly lines make your cat <em>yours</em>.</li>
         <li><strong>Any colors work.</strong> Cream and pink is our version — a blue cat is a great cat too.</li>
       </ul>
     </div>
@@ -79,8 +96,60 @@
 <footer class="site">
   <div class="wrap">
     <div class="logo-text">Draw<span style="color:var(--coral)">sie</span></div>
-    <p>Step-by-step drawing tutorials for kids and beginners.<br>Draw the red lines. That's the whole secret.</p>
+    <p>Step-by-step drawing tutorials for kids, students, and beginners.<br>Draw the red lines. That's the whole secret.</p>
   </div>
 </footer>
+
+<script src="../assets/cat-steps.js"></script>
+<script>
+(function(){
+  var OLD = "#33302c", NEW = "#e5484d";
+  var data = window.DRAWSIE_CAT;
+  var total = data.parts.length + 1; // 7 line steps + colored final
+  var step = 1;
+  var stage = document.getElementById("stage");
+  var caption = document.getElementById("caption");
+  var dotsBox = document.getElementById("dots");
+  var prevBtn = document.getElementById("prevBtn");
+  var nextBtn = document.getElementById("nextBtn");
+
+  for (var i = 1; i <= total; i++){
+    var d = document.createElement("button");
+    d.type = "button";
+    d.setAttribute("aria-label", "Go to step " + i);
+    (function(n){ d.addEventListener("click", function(){ step = n; render(); }); })(i);
+    dotsBox.appendChild(d);
+  }
+  var dots = dotsBox.children;
+
+  function svgFor(s){
+    var inner = "";
+    if (s === total){ inner = data.final; }
+    else {
+      for (var j = 0; j < s; j++){
+        inner += data.parts[j].split("{c}").join(j === s - 1 ? NEW : OLD);
+      }
+    }
+    return '<svg viewBox="0 0 200 200" role="img" aria-label="Drawing step ' + s + '">' + inner + "</svg>";
+  }
+  function render(){
+    stage.innerHTML = svgFor(step);
+    caption.textContent = "Step " + step + " of " + total + " — " + data.captions[step - 1];
+    for (var k = 0; k < total; k++){
+      dots[k].className = k + 1 === step ? "on" : (k + 1 < step ? "done" : "");
+    }
+    prevBtn.disabled = step === 1;
+    nextBtn.disabled = step === total;
+    nextBtn.innerHTML = step === total - 1 ? "Finish &#127881;" : "Next &#8594;";
+  }
+  prevBtn.addEventListener("click", function(){ if (step > 1){ step--; render(); } });
+  nextBtn.addEventListener("click", function(){ if (step < total){ step++; render(); } });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "ArrowRight") nextBtn.click();
+    if (e.key === "ArrowLeft") prevBtn.click();
+  });
+  render();
+})();
+</script>
 </body>
 </html>

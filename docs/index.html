@@ -7,8 +7,8 @@
 <meta name="description" content="Drawsie teaches kids and beginners to draw cute animals in 6–10 easy steps. Just follow the red lines — print the sheet or draw along on screen.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=2">
 <meta property="og:title" content="Drawsie — Learn to Draw Cute Animals, Step by Step">
 <meta property="og:description" content="Cute animals in 6–10 easy steps. Follow the red lines!">
 <meta property="og:type" content="website">
@@ -31,17 +31,32 @@
 
 <main class="wrap">
   <div class="hero">
-    <h1>Learn to draw <span class="hl">cute animals</span>,<br>one easy step at a time</h1>
-    <p>Every Drawsie tutorial breaks a drawing into 6–10 tiny steps. Just draw the red lines, one panel at a time — anyone can do it.</p>
-    <a class="btn" href="tutorials/how-to-draw-a-cat.html">Start with the cat</a>
-    <div class="hero-img">
-      <img src="assets/img/how-to-draw-a-cat.png" alt="How to draw a cat in 8 steps — step-by-step sheet">
+    <div class="hero-grid">
+      <div>
+        <h1>Learn to draw <span class="hl">cute animals</span>, one <span class="hl2">easy step</span> at a time</h1>
+        <p>Every Drawsie tutorial breaks a drawing into tiny steps. Just draw the red lines, one panel at a time — if you can draw a circle, you can draw everything here.</p>
+        <a class="btn" href="tutorials/how-to-draw-a-cat.html">Start with the cat</a>
+      </div>
+      <figure class="mascot">
+        <img src="assets/img/cat-final.png" alt="The Drawsie cat — a cute cream cat with a collar and bell">
+        <figcaption>Meet Mimi, the Drawsie cat. You'll draw her in 8 steps.</figcaption>
+      </figure>
     </div>
+    <figure class="hero-img">
+      <img src="assets/img/how-to-draw-a-cat.png" alt="How to draw a cat in 8 steps — step-by-step sheet">
+      <figcaption>Every tutorial is one friendly sheet — on screen, or printed on paper.</figcaption>
+    </figure>
+  </div>
+
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 100 100"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>
+    <svg viewBox="0 0 100 100"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>
+    <svg viewBox="0 0 100 100"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>
   </div>
 
   <section id="how">
-    <h2>How it works</h2>
-    <p class="sub">No talent needed. If you can draw a circle, you can draw everything here.</p>
+    <h2><svg class="paw" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>How it works</h2>
+    <p class="sub">No talent needed. Just a pencil, a piece of paper, and a few minutes.</p>
     <div class="cards">
       <div class="card">
         <span class="num">1</span>
@@ -51,19 +66,19 @@
       <div class="card">
         <span class="num">2</span>
         <h3>Follow the red lines</h3>
-        <p>Each panel adds just a few new lines, shown in red. Copy those, panel by panel.</p>
+        <p>Each step adds just a few new lines, shown in red. Copy those, one step at a time.</p>
       </div>
       <div class="card">
         <span class="num">3</span>
         <h3>Color it in</h3>
-        <p>The last panel shows the finished drawing in color. Make it yours — any colors you like.</p>
+        <p>The last step shows the finished drawing in color. Make it yours — any colors you like.</p>
       </div>
     </div>
   </section>
 
   <section id="tutorials">
-    <h2>Drawing tutorials</h2>
-    <p class="sub">Free to use on screen, or print the sheet and draw on paper.</p>
+    <h2><svg class="paw" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="64" rx="21" ry="16"/><circle cx="22" cy="40" r="9.5"/><circle cx="41" cy="29" r="9.5"/><circle cx="60" cy="29" r="9.5"/><circle cx="79" cy="40" r="9.5"/></svg>Drawing tutorials</h2>
+    <p class="sub">Free to draw along on screen, or print the sheet and draw on paper.</p>
     <div class="grid">
       <a class="tcard" href="tutorials/how-to-draw-a-cat.html">
         <div class="thumb"><img src="assets/img/cat-final.png" alt="Cute cat drawing"></div>
@@ -74,7 +89,7 @@
         </div>
       </a>
       <div class="tcard soon">
-        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.35"></div>
+        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
         <div class="meta">
           <h3>How to Draw a Dog</h3>
           <p>Coming soon · Animals</p>
@@ -82,7 +97,7 @@
         </div>
       </div>
       <div class="tcard soon">
-        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.35"></div>
+        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
         <div class="meta">
           <h3>How to Draw an Owl</h3>
           <p>Coming soon · Animals</p>
@@ -90,7 +105,7 @@
         </div>
       </div>
       <div class="tcard soon">
-        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.35"></div>
+        <div class="thumb"><img src="assets/img/cat-final.png" alt="" style="filter:grayscale(1);opacity:.3"></div>
         <div class="meta">
           <h3>How to Draw a Penguin</h3>
           <p>Coming soon · Animals</p>
@@ -102,7 +117,7 @@
 
   <section>
     <h2>Made for paper, too</h2>
-    <p class="sub">Every tutorial is one printable sheet. Print it, grab a pencil, and draw anywhere — no screen required.</p>
+    <p class="sub">Every tutorial is one printable sheet. Print it, grab a pencil, and draw anywhere — at the kitchen table, in class, or on a trip.</p>
     <div style="text-align:center">
       <a class="btn secondary" href="assets/img/how-to-draw-a-cat.png">Print the cat sheet</a>
     </div>
@@ -112,7 +127,7 @@
 <footer class="site">
   <div class="wrap">
     <div class="logo-text">Draw<span style="color:var(--coral)">sie</span></div>
-    <p>Step-by-step drawing tutorials for kids and beginners.<br>Draw the red lines. That's the whole secret.</p>
+    <p>Step-by-step drawing tutorials for kids, students, and beginners.<br>Draw the red lines. That's the whole secret.</p>
   </div>
 </footer>
 </body>
