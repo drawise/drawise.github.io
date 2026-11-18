@@ -1,1 +1,68 @@
-{"categories":[{"name":"Pets","slug":"pets"},{"name":"Farm Animals","slug":"farm"},{"name":"Ocean Animals","slug":"ocean"},{"name":"Jungle & Wild Animals","slug":"jungle"},{"name":"Birds","slug":"birds"},{"name":"Cute Food","slug":"food"},{"name":"Things & Vehicles","slug":"things"}],"tutorials":[{"category":"pets","dateAdded":"2026-11-17","difficulty":"Easy","page":"how-to-draw-a-cat.html","slug":"cat","steps":8,"subject":"Cat","tags":["kitty","kitten","pet","animal","mimi"],"title":"How to Draw a Cat"}]}
+{
+  "categories": [
+    {
+      "name": "Pets",
+      "slug": "pets"
+    },
+    {
+      "name": "Farm Animals",
+      "slug": "farm"
+    },
+    {
+      "name": "Ocean Animals",
+      "slug": "ocean"
+    },
+    {
+      "name": "Jungle & Wild Animals",
+      "slug": "jungle"
+    },
+    {
+      "name": "Birds",
+      "slug": "birds"
+    },
+    {
+      "name": "Cute Food",
+      "slug": "food"
+    },
+    {
+      "name": "Things & Vehicles",
+      "slug": "things"
+    }
+  ],
+  "tutorials": [
+    {
+      "category": "pets",
+      "dateAdded": "2026-11-17",
+      "difficulty": "Easy",
+      "page": "how-to-draw-a-cat.html",
+      "slug": "cat",
+      "steps": 8,
+      "subject": "Cat",
+      "tags": [
+        "kitty",
+        "kitten",
+        "pet",
+        "animal",
+        "mimi"
+      ],
+      "title": "How to Draw a Cat"
+    },
+    {
+      "slug": "dog",
+      "page": "how-to-draw-a-dog.html",
+      "title": "How to Draw a Dog",
+      "subject": "Dog",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "puppy",
+        "doggy",
+        "pet",
+        "animal",
+        "pup"
+      ]
+    }
+  ]
+}

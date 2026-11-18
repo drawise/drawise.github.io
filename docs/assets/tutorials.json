@@ -18,6 +18,25 @@
       "sheet": "assets/cat/sheet.png",
       "thumb": "assets/cat/final.png",
       "stepsData": "assets/cat/steps.js"
+    },
+    {
+      "slug": "dog",
+      "title": "How to Draw a Dog",
+      "subject": "Dog",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "puppy",
+        "doggy",
+        "pet",
+        "animal",
+        "pup"
+      ],
+      "page": "tutorials/how-to-draw-a-dog.html",
+      "sheet": "assets/dog/sheet.png",
+      "thumb": "assets/dog/final.png",
+      "stepsData": "assets/dog/steps.js"
     }
   ]
 }
