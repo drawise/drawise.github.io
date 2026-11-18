@@ -384,6 +384,82 @@
         "bird",
         "legs"
       ]
+    },
+    {
+      "slug": "chick",
+      "page": "how-to-draw-a-chick.html",
+      "title": "How to Draw a Chick",
+      "subject": "Chick",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bird",
+        "baby",
+        "easter",
+        "yellow"
+      ]
+    },
+    {
+      "slug": "sheep",
+      "page": "how-to-draw-a-sheep.html",
+      "title": "How to Draw a Sheep",
+      "subject": "Sheep",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "lamb",
+        "wool",
+        "farm"
+      ]
+    },
+    {
+      "slug": "horse",
+      "page": "how-to-draw-a-horse.html",
+      "title": "How to Draw a Horse",
+      "subject": "Horse",
+      "category": "farm",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "pony",
+        "mane",
+        "farm"
+      ]
+    },
+    {
+      "slug": "duck",
+      "page": "how-to-draw-a-duck.html",
+      "title": "How to Draw a Duck",
+      "subject": "Duck",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "duckling",
+        "bird",
+        "water"
+      ]
+    },
+    {
+      "slug": "goat",
+      "page": "how-to-draw-a-goat.html",
+      "title": "How to Draw a Goat",
+      "subject": "Goat",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "horns",
+        "farm",
+        "kid"
+      ]
     }
   ]
 }

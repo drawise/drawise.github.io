@@ -390,6 +390,92 @@
       "sheet": "assets/flamingo/sheet.png",
       "thumb": "assets/flamingo/final.png",
       "stepsData": "assets/flamingo/steps.js"
+    },
+    {
+      "slug": "chick",
+      "title": "How to Draw a Chick",
+      "subject": "Chick",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "bird",
+        "baby",
+        "easter",
+        "yellow"
+      ],
+      "page": "tutorials/how-to-draw-a-chick.html",
+      "sheet": "assets/chick/sheet.png",
+      "thumb": "assets/chick/final.png",
+      "stepsData": "assets/chick/steps.js"
+    },
+    {
+      "slug": "sheep",
+      "title": "How to Draw a Sheep",
+      "subject": "Sheep",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "lamb",
+        "wool",
+        "farm"
+      ],
+      "page": "tutorials/how-to-draw-a-sheep.html",
+      "sheet": "assets/sheep/sheet.png",
+      "thumb": "assets/sheep/final.png",
+      "stepsData": "assets/sheep/steps.js"
+    },
+    {
+      "slug": "horse",
+      "title": "How to Draw a Horse",
+      "subject": "Horse",
+      "category": "farm",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "pony",
+        "mane",
+        "farm"
+      ],
+      "page": "tutorials/how-to-draw-a-horse.html",
+      "sheet": "assets/horse/sheet.png",
+      "thumb": "assets/horse/final.png",
+      "stepsData": "assets/horse/steps.js"
+    },
+    {
+      "slug": "duck",
+      "title": "How to Draw a Duck",
+      "subject": "Duck",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "duckling",
+        "bird",
+        "water"
+      ],
+      "page": "tutorials/how-to-draw-a-duck.html",
+      "sheet": "assets/duck/sheet.png",
+      "thumb": "assets/duck/final.png",
+      "stepsData": "assets/duck/steps.js"
+    },
+    {
+      "slug": "goat",
+      "title": "How to Draw a Goat",
+      "subject": "Goat",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "horns",
+        "farm",
+        "kid"
+      ],
+      "page": "tutorials/how-to-draw-a-goat.html",
+      "sheet": "assets/goat/sheet.png",
+      "thumb": "assets/goat/final.png",
+      "stepsData": "assets/goat/steps.js"
     }
   ]
 }
