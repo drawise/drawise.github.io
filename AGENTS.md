@@ -47,10 +47,20 @@ file for `GTM-WP3XNK83` — it must appear exactly twice per page).
   printable sheet.
 - `docs/assets/` — shared files at the top level (`style.css` — bump the
   `?v=` query when it changes — and `favicon.svg`), plus **one folder per
-  tutorial**: `docs/assets/<subject>/` containing exactly that tutorial's
-  `sheet.png` (printable sheet), `final.png` (finished-drawing thumbnail),
-  and `steps.js` (player step data). Adding a tutorial = adding one folder;
-  never put tutorial files in shared folders.
+  tutorial**: `docs/assets/<tutorial-slug>/` containing exactly that
+  tutorial's `sheet.png` (printable sheet), `final.png` (finished-drawing
+  thumbnail), and `steps.js` (player step data).
+  - The folder is per **tutorial**, not per animal. A variant of the same
+    animal (different pose, direction, or scene — e.g. "cat facing left")
+    is a NEW tutorial with its OWN folder, a **peer** of the existing one:
+    `docs/assets/cat/` and `docs/assets/cat-facing-left/` sit side by side.
+    Never nest a variant inside another tutorial's folder, and never add a
+    second tutorial's files to an existing folder.
+  - The folder name is the tutorial's slug: the page
+    `docs/tutorials/how-to-draw-cat-facing-left.html` pairs with the folder
+    `docs/assets/cat-facing-left/`.
+  - Adding a tutorial = adding one new folder; never put tutorial files in
+    shared folders.
 - `docs/robots.txt`, `docs/sitemap.xml` — add every new page to the sitemap.
 
 ## Content rules
