@@ -309,6 +309,81 @@
         "royal",
         "gold"
       ]
+    },
+    {
+      "slug": "tiger",
+      "page": "how-to-draw-a-tiger.html",
+      "title": "How to Draw a Tiger",
+      "subject": "Tiger",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "stripes",
+        "cat",
+        "wild"
+      ]
+    },
+    {
+      "slug": "fox",
+      "page": "how-to-draw-a-fox.html",
+      "title": "How to Draw a Fox",
+      "subject": "Fox",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "wild",
+        "tail",
+        "orange"
+      ]
+    },
+    {
+      "slug": "koala",
+      "page": "how-to-draw-a-koala.html",
+      "title": "How to Draw a Koala",
+      "subject": "Koala",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bear",
+        "australia",
+        "ears"
+      ]
+    },
+    {
+      "slug": "red-panda",
+      "page": "how-to-draw-a-red-panda.html",
+      "title": "How to Draw a Red Panda",
+      "subject": "Red Panda",
+      "category": "jungle",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "panda",
+        "wild",
+        "tail"
+      ]
+    },
+    {
+      "slug": "flamingo",
+      "page": "how-to-draw-a-flamingo.html",
+      "title": "How to Draw a Flamingo",
+      "subject": "Flamingo",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "pink",
+        "bird",
+        "legs"
+      ]
     }
   ]
 }

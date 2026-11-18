@@ -305,6 +305,91 @@
       "sheet": "assets/crown/sheet.png",
       "thumb": "assets/crown/final.png",
       "stepsData": "assets/crown/steps.js"
+    },
+    {
+      "slug": "tiger",
+      "title": "How to Draw a Tiger",
+      "subject": "Tiger",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 9,
+      "tags": [
+        "stripes",
+        "cat",
+        "wild"
+      ],
+      "page": "tutorials/how-to-draw-a-tiger.html",
+      "sheet": "assets/tiger/sheet.png",
+      "thumb": "assets/tiger/final.png",
+      "stepsData": "assets/tiger/steps.js"
+    },
+    {
+      "slug": "fox",
+      "title": "How to Draw a Fox",
+      "subject": "Fox",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "wild",
+        "tail",
+        "orange"
+      ],
+      "page": "tutorials/how-to-draw-a-fox.html",
+      "sheet": "assets/fox/sheet.png",
+      "thumb": "assets/fox/final.png",
+      "stepsData": "assets/fox/steps.js"
+    },
+    {
+      "slug": "koala",
+      "title": "How to Draw a Koala",
+      "subject": "Koala",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "bear",
+        "australia",
+        "ears"
+      ],
+      "page": "tutorials/how-to-draw-a-koala.html",
+      "sheet": "assets/koala/sheet.png",
+      "thumb": "assets/koala/final.png",
+      "stepsData": "assets/koala/steps.js"
+    },
+    {
+      "slug": "red-panda",
+      "title": "How to Draw a Red Panda",
+      "subject": "Red Panda",
+      "category": "jungle",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "panda",
+        "wild",
+        "tail"
+      ],
+      "page": "tutorials/how-to-draw-a-red-panda.html",
+      "sheet": "assets/red-panda/sheet.png",
+      "thumb": "assets/red-panda/final.png",
+      "stepsData": "assets/red-panda/steps.js"
+    },
+    {
+      "slug": "flamingo",
+      "title": "How to Draw a Flamingo",
+      "subject": "Flamingo",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "pink",
+        "bird",
+        "legs"
+      ],
+      "page": "tutorials/how-to-draw-a-flamingo.html",
+      "sheet": "assets/flamingo/sheet.png",
+      "thumb": "assets/flamingo/final.png",
+      "stepsData": "assets/flamingo/steps.js"
     }
   ]
 }
