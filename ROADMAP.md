@@ -19,14 +19,14 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 ## Pets
 - Cat ✅ (8)
 - Dog ✅ (8)
-- Bunny (7) 🔜
+- Bunny (7) ✅
 - Hamster (6)
 - Goldfish in a bowl (6)
 - Puppy face (5, ages 3–5)
 - Kitten face (5, ages 3–5)
 
 ## Farm Animals
-- Pig (7) 🔜
+- Pig (7) ✅
 - Cow (7)
 - Chick (5, ages 3–5)
 - Sheep (6)
@@ -35,8 +35,8 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Goat (8)
 
 ## Ocean Animals
-- Fish (6) 🔜
-- Turtle (8) 🔜
+- Fish (6) ✅
+- Turtle (8) ✅
 - Octopus (6)
 - Shark (8)
 - Whale (6)
@@ -48,7 +48,7 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 ## Jungle & Wild Animals
 - Elephant (8)
 - Lion (8)
-- Panda (8) 🔜
+- Panda (8) ✅
 - Monkey (7)
 - Tiger (9)
 - Fox (7)
@@ -56,16 +56,16 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Red panda (9, ages 10+)
 
 ## Birds
-- Owl (7) 🔜
-- Penguin (7) 🔜
+- Owl (7) ✅
+- Penguin (7) ✅
 - Flamingo (8)
 - Parrot (9)
 - Robin (7)
 - Baby penguin (5, ages 3–5)
 
 ## Cute Food
-- Ice cream cone (6) 🔜
-- Cupcake (6) 🔜
+- Ice cream cone (6) ✅
+- Cupcake (6) ✅
 - Donut (5)
 - Strawberry (5)
 - Watermelon slice (4, ages 3–5)
@@ -74,7 +74,7 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Pizza slice (6)
 
 ## Fantasy & Fun
-- Unicorn (10) 🔜
+- Unicorn (10) ✅
 - Baby dragon (9)
 - Mermaid (10, ages 10+)
 - Fairy (10)
@@ -87,7 +87,7 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 ## Nature & Seasons (publish 3–4 weeks ahead of the season)
 - Sunflower (6)
 - Mushroom house (8)
-- Butterfly (8) 🔜
+- Butterfly (8) ✅
 - Ladybug (5)
 - Bee (6)
 - Snowman (5) — for December

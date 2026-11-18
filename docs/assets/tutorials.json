@@ -37,6 +37,203 @@
       "sheet": "assets/dog/sheet.png",
       "thumb": "assets/dog/final.png",
       "stepsData": "assets/dog/steps.js"
+    },
+    {
+      "slug": "bunny",
+      "title": "How to Draw a Bunny",
+      "subject": "Bunny",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "rabbit",
+        "easter",
+        "pet",
+        "animal"
+      ],
+      "page": "tutorials/how-to-draw-a-bunny.html",
+      "sheet": "assets/bunny/sheet.png",
+      "thumb": "assets/bunny/final.png",
+      "stepsData": "assets/bunny/steps.js"
+    },
+    {
+      "slug": "owl",
+      "title": "How to Draw an Owl",
+      "subject": "Owl",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "bird",
+        "night",
+        "hoot",
+        "wise"
+      ],
+      "page": "tutorials/how-to-draw-an-owl.html",
+      "sheet": "assets/owl/sheet.png",
+      "thumb": "assets/owl/final.png",
+      "stepsData": "assets/owl/steps.js"
+    },
+    {
+      "slug": "penguin",
+      "title": "How to Draw a Penguin",
+      "subject": "Penguin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "bird",
+        "snow",
+        "winter",
+        "cute"
+      ],
+      "page": "tutorials/how-to-draw-a-penguin.html",
+      "sheet": "assets/penguin/sheet.png",
+      "thumb": "assets/penguin/final.png",
+      "stepsData": "assets/penguin/steps.js"
+    },
+    {
+      "slug": "fish",
+      "title": "How to Draw a Fish",
+      "subject": "Fish",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "goldfish",
+        "sea",
+        "water",
+        "swim"
+      ],
+      "page": "tutorials/how-to-draw-a-fish.html",
+      "sheet": "assets/fish/sheet.png",
+      "thumb": "assets/fish/final.png",
+      "stepsData": "assets/fish/steps.js"
+    },
+    {
+      "slug": "turtle",
+      "title": "How to Draw a Turtle",
+      "subject": "Turtle",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "sea turtle",
+        "sea",
+        "shell",
+        "ocean"
+      ],
+      "page": "tutorials/how-to-draw-a-turtle.html",
+      "sheet": "assets/turtle/sheet.png",
+      "thumb": "assets/turtle/final.png",
+      "stepsData": "assets/turtle/steps.js"
+    },
+    {
+      "slug": "panda",
+      "title": "How to Draw a Panda",
+      "subject": "Panda",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "bear",
+        "bamboo",
+        "china"
+      ],
+      "page": "tutorials/how-to-draw-a-panda.html",
+      "sheet": "assets/panda/sheet.png",
+      "thumb": "assets/panda/final.png",
+      "stepsData": "assets/panda/steps.js"
+    },
+    {
+      "slug": "pig",
+      "title": "How to Draw a Pig",
+      "subject": "Pig",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "piggy",
+        "farm",
+        "pink"
+      ],
+      "page": "tutorials/how-to-draw-a-pig.html",
+      "sheet": "assets/pig/sheet.png",
+      "thumb": "assets/pig/final.png",
+      "stepsData": "assets/pig/steps.js"
+    },
+    {
+      "slug": "butterfly",
+      "title": "How to Draw a Butterfly",
+      "subject": "Butterfly",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "insect",
+        "wings",
+        "spring",
+        "garden"
+      ],
+      "page": "tutorials/how-to-draw-a-butterfly.html",
+      "sheet": "assets/butterfly/sheet.png",
+      "thumb": "assets/butterfly/final.png",
+      "stepsData": "assets/butterfly/steps.js"
+    },
+    {
+      "slug": "ice-cream",
+      "title": "How to Draw an Ice Cream",
+      "subject": "Ice Cream",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "icecream",
+        "dessert",
+        "summer",
+        "sweet",
+        "cone"
+      ],
+      "page": "tutorials/how-to-draw-ice-cream.html",
+      "sheet": "assets/ice-cream/sheet.png",
+      "thumb": "assets/ice-cream/final.png",
+      "stepsData": "assets/ice-cream/steps.js"
+    },
+    {
+      "slug": "cupcake",
+      "title": "How to Draw a Cupcake",
+      "subject": "Cupcake",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "cake",
+        "dessert",
+        "sweet",
+        "birthday"
+      ],
+      "page": "tutorials/how-to-draw-a-cupcake.html",
+      "sheet": "assets/cupcake/sheet.png",
+      "thumb": "assets/cupcake/final.png",
+      "stepsData": "assets/cupcake/steps.js"
+    },
+    {
+      "slug": "unicorn",
+      "title": "How to Draw a Unicorn",
+      "subject": "Unicorn",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 10,
+      "tags": [
+        "magic",
+        "rainbow",
+        "horse",
+        "mythical"
+      ],
+      "page": "tutorials/how-to-draw-a-unicorn.html",
+      "sheet": "assets/unicorn/sheet.png",
+      "thumb": "assets/unicorn/final.png",
+      "stepsData": "assets/unicorn/steps.js"
     }
   ]
 }

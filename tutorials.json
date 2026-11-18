@@ -27,6 +27,14 @@
     {
       "name": "Things & Vehicles",
       "slug": "things"
+    },
+    {
+      "name": "Nature & Seasons",
+      "slug": "nature"
+    },
+    {
+      "name": "Fantasy & Fun",
+      "slug": "fantasy"
     }
   ],
   "tutorials": [
@@ -62,6 +70,181 @@
         "pet",
         "animal",
         "pup"
+      ]
+    },
+    {
+      "slug": "bunny",
+      "page": "how-to-draw-a-bunny.html",
+      "title": "How to Draw a Bunny",
+      "subject": "Bunny",
+      "category": "pets",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "rabbit",
+        "easter",
+        "pet",
+        "animal"
+      ]
+    },
+    {
+      "slug": "owl",
+      "page": "how-to-draw-an-owl.html",
+      "title": "How to Draw an Owl",
+      "subject": "Owl",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bird",
+        "night",
+        "hoot",
+        "wise"
+      ]
+    },
+    {
+      "slug": "penguin",
+      "page": "how-to-draw-a-penguin.html",
+      "title": "How to Draw a Penguin",
+      "subject": "Penguin",
+      "category": "birds",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bird",
+        "snow",
+        "winter",
+        "cute"
+      ]
+    },
+    {
+      "slug": "fish",
+      "page": "how-to-draw-a-fish.html",
+      "title": "How to Draw a Fish",
+      "subject": "Fish",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "goldfish",
+        "sea",
+        "water",
+        "swim"
+      ]
+    },
+    {
+      "slug": "turtle",
+      "page": "how-to-draw-a-turtle.html",
+      "title": "How to Draw a Turtle",
+      "subject": "Turtle",
+      "category": "ocean",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "sea turtle",
+        "sea",
+        "shell",
+        "ocean"
+      ]
+    },
+    {
+      "slug": "panda",
+      "page": "how-to-draw-a-panda.html",
+      "title": "How to Draw a Panda",
+      "subject": "Panda",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bear",
+        "bamboo",
+        "china"
+      ]
+    },
+    {
+      "slug": "pig",
+      "page": "how-to-draw-a-pig.html",
+      "title": "How to Draw a Pig",
+      "subject": "Pig",
+      "category": "farm",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "piggy",
+        "farm",
+        "pink"
+      ]
+    },
+    {
+      "slug": "butterfly",
+      "page": "how-to-draw-a-butterfly.html",
+      "title": "How to Draw a Butterfly",
+      "subject": "Butterfly",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "insect",
+        "wings",
+        "spring",
+        "garden"
+      ]
+    },
+    {
+      "slug": "ice-cream",
+      "page": "how-to-draw-ice-cream.html",
+      "title": "How to Draw an Ice Cream",
+      "subject": "Ice Cream",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "icecream",
+        "dessert",
+        "summer",
+        "sweet",
+        "cone"
+      ]
+    },
+    {
+      "slug": "cupcake",
+      "page": "how-to-draw-a-cupcake.html",
+      "title": "How to Draw a Cupcake",
+      "subject": "Cupcake",
+      "category": "food",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "cake",
+        "dessert",
+        "sweet",
+        "birthday"
+      ]
+    },
+    {
+      "slug": "unicorn",
+      "page": "how-to-draw-a-unicorn.html",
+      "title": "How to Draw a Unicorn",
+      "subject": "Unicorn",
+      "category": "fantasy",
+      "difficulty": "Easy",
+      "steps": 10,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "magic",
+        "rainbow",
+        "horse",
+        "mythical"
       ]
     }
   ]
