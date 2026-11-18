@@ -564,6 +564,94 @@
       "sheet": "assets/strawberry/sheet.png",
       "thumb": "assets/strawberry/final.png",
       "stepsData": "assets/strawberry/steps.js"
+    },
+    {
+      "slug": "mushroom-house",
+      "title": "How to Draw a Mushroom House",
+      "subject": "Mushroom House",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "mushroom",
+        "house",
+        "fairy",
+        "cottage"
+      ],
+      "page": "tutorials/how-to-draw-a-mushroom-house.html",
+      "sheet": "assets/mushroom-house/sheet.png",
+      "thumb": "assets/mushroom-house/final.png",
+      "stepsData": "assets/mushroom-house/steps.js"
+    },
+    {
+      "slug": "ladybug",
+      "title": "How to Draw a Ladybug",
+      "subject": "Ladybug",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "bug",
+        "insect",
+        "red"
+      ],
+      "page": "tutorials/how-to-draw-a-ladybug.html",
+      "sheet": "assets/ladybug/sheet.png",
+      "thumb": "assets/ladybug/final.png",
+      "stepsData": "assets/ladybug/steps.js"
+    },
+    {
+      "slug": "bee",
+      "title": "How to Draw a Bee",
+      "subject": "Bee",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "bug",
+        "insect",
+        "honey",
+        "bumblebee"
+      ],
+      "page": "tutorials/how-to-draw-a-bee.html",
+      "sheet": "assets/bee/sheet.png",
+      "thumb": "assets/bee/final.png",
+      "stepsData": "assets/bee/steps.js"
+    },
+    {
+      "slug": "snowman",
+      "title": "How to Draw a Snowman",
+      "subject": "Snowman",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "snow",
+        "winter",
+        "christmas"
+      ],
+      "page": "tutorials/how-to-draw-a-snowman.html",
+      "sheet": "assets/snowman/sheet.png",
+      "thumb": "assets/snowman/final.png",
+      "stepsData": "assets/snowman/steps.js"
+    },
+    {
+      "slug": "christmas-tree",
+      "title": "How to Draw a Christmas Tree",
+      "subject": "Christmas Tree",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "christmas",
+        "tree",
+        "holiday",
+        "winter"
+      ],
+      "page": "tutorials/how-to-draw-a-christmas-tree.html",
+      "sheet": "assets/christmas-tree/sheet.png",
+      "thumb": "assets/christmas-tree/final.png",
+      "stepsData": "assets/christmas-tree/steps.js"
     }
   ]
 }

@@ -538,6 +538,84 @@
         "sweet",
         "red"
       ]
+    },
+    {
+      "slug": "mushroom-house",
+      "page": "how-to-draw-a-mushroom-house.html",
+      "title": "How to Draw a Mushroom House",
+      "subject": "Mushroom House",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "mushroom",
+        "house",
+        "fairy",
+        "cottage"
+      ]
+    },
+    {
+      "slug": "ladybug",
+      "page": "how-to-draw-a-ladybug.html",
+      "title": "How to Draw a Ladybug",
+      "subject": "Ladybug",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bug",
+        "insect",
+        "red"
+      ]
+    },
+    {
+      "slug": "bee",
+      "page": "how-to-draw-a-bee.html",
+      "title": "How to Draw a Bee",
+      "subject": "Bee",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bug",
+        "insect",
+        "honey",
+        "bumblebee"
+      ]
+    },
+    {
+      "slug": "snowman",
+      "page": "how-to-draw-a-snowman.html",
+      "title": "How to Draw a Snowman",
+      "subject": "Snowman",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "snow",
+        "winter",
+        "christmas"
+      ]
+    },
+    {
+      "slug": "christmas-tree",
+      "page": "how-to-draw-a-christmas-tree.html",
+      "title": "How to Draw a Christmas Tree",
+      "subject": "Christmas Tree",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "christmas",
+        "tree",
+        "holiday",
+        "winter"
+      ]
     }
   ]
 }
