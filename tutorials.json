@@ -246,6 +246,69 @@
         "horse",
         "mythical"
       ]
+    },
+    {
+      "slug": "sailboat",
+      "page": "how-to-draw-a-sailboat.html",
+      "title": "How to Draw a Sailboat",
+      "subject": "Sailboat",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "boat",
+        "sea",
+        "sail",
+        "ocean"
+      ]
+    },
+    {
+      "slug": "bicycle",
+      "page": "how-to-draw-a-bicycle.html",
+      "title": "How to Draw a Bicycle",
+      "subject": "Bicycle",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "bike",
+        "cycling",
+        "ride"
+      ]
+    },
+    {
+      "slug": "sneaker",
+      "page": "how-to-draw-a-sneaker.html",
+      "title": "How to Draw a Sneaker",
+      "subject": "Sneaker",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "shoe",
+        "shoes",
+        "trainer",
+        "sport"
+      ]
+    },
+    {
+      "slug": "crown",
+      "page": "how-to-draw-a-crown.html",
+      "title": "How to Draw a Crown",
+      "subject": "Crown",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-17",
+      "tags": [
+        "king",
+        "queen",
+        "royal",
+        "gold"
+      ]
     }
   ]
 }

@@ -234,6 +234,77 @@
       "sheet": "assets/unicorn/sheet.png",
       "thumb": "assets/unicorn/final.png",
       "stepsData": "assets/unicorn/steps.js"
+    },
+    {
+      "slug": "sailboat",
+      "title": "How to Draw a Sailboat",
+      "subject": "Sailboat",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "boat",
+        "sea",
+        "sail",
+        "ocean"
+      ],
+      "page": "tutorials/how-to-draw-a-sailboat.html",
+      "sheet": "assets/sailboat/sheet.png",
+      "thumb": "assets/sailboat/final.png",
+      "stepsData": "assets/sailboat/steps.js"
+    },
+    {
+      "slug": "bicycle",
+      "title": "How to Draw a Bicycle",
+      "subject": "Bicycle",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "bike",
+        "cycling",
+        "ride"
+      ],
+      "page": "tutorials/how-to-draw-a-bicycle.html",
+      "sheet": "assets/bicycle/sheet.png",
+      "thumb": "assets/bicycle/final.png",
+      "stepsData": "assets/bicycle/steps.js"
+    },
+    {
+      "slug": "sneaker",
+      "title": "How to Draw a Sneaker",
+      "subject": "Sneaker",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "shoe",
+        "shoes",
+        "trainer",
+        "sport"
+      ],
+      "page": "tutorials/how-to-draw-a-sneaker.html",
+      "sheet": "assets/sneaker/sheet.png",
+      "thumb": "assets/sneaker/final.png",
+      "stepsData": "assets/sneaker/steps.js"
+    },
+    {
+      "slug": "crown",
+      "title": "How to Draw a Crown",
+      "subject": "Crown",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "king",
+        "queen",
+        "royal",
+        "gold"
+      ],
+      "page": "tutorials/how-to-draw-a-crown.html",
+      "sheet": "assets/crown/sheet.png",
+      "thumb": "assets/crown/final.png",
+      "stepsData": "assets/crown/steps.js"
     }
   ]
 }
