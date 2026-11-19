@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://drawise.github.io/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-an-airplane.html</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-an-alien.html</loc>
@@ -19,6 +23,10 @@
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-baby-penguin.html</loc>
     <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-bear.html</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-bee.html</loc>
@@ -43,6 +51,10 @@
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-candy-cane.html</loc>
     <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-car.html</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-castle.html</loc>
@@ -77,6 +89,10 @@
     <lastmod>2026-11-17</lastmod>
   </url>
   <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-digger.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-dog.html</loc>
     <lastmod>2026-11-17</lastmod>
   </url>
@@ -109,6 +125,10 @@
     <lastmod>2026-11-17</lastmod>
   </url>
   <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-fire-truck.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-fish.html</loc>
     <lastmod>2026-11-17</lastmod>
   </url>
@@ -121,8 +141,16 @@
     <lastmod>2026-11-17</lastmod>
   </url>
   <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-frog.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-gingerbread-man.html</loc>
     <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-giraffe.html</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-goat.html</loc>
@@ -277,6 +305,10 @@
     <lastmod>2026-11-17</lastmod>
   </url>
   <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-sloth.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-sneaker.html</loc>
     <lastmod>2026-11-17</lastmod>
   </url>
@@ -305,6 +337,10 @@
     <lastmod>2026-11-17</lastmod>
   </url>
   <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-train.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-triceratops.html</loc>
     <lastmod>2026-11-18</lastmod>
   </url>
@@ -323,5 +359,9 @@
   <url>
     <loc>https://drawise.github.io/tutorials/how-to-draw-a-whale.html</loc>
     <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://drawise.github.io/tutorials/how-to-draw-a-zebra.html</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 </urlset>

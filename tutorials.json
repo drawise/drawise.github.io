@@ -1280,6 +1280,160 @@
         "dino",
         "flying"
       ]
+    },
+    {
+      "slug": "car",
+      "page": "how-to-draw-a-car.html",
+      "title": "How to Draw a Car",
+      "subject": "Car",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "car",
+        "vehicle",
+        "drive"
+      ]
+    },
+    {
+      "slug": "airplane",
+      "page": "how-to-draw-an-airplane.html",
+      "title": "How to Draw an Airplane",
+      "subject": "Airplane",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "airplane",
+        "plane",
+        "fly",
+        "sky"
+      ]
+    },
+    {
+      "slug": "train",
+      "page": "how-to-draw-a-train.html",
+      "title": "How to Draw a Train",
+      "subject": "Train",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "train",
+        "locomotive",
+        "railway"
+      ]
+    },
+    {
+      "slug": "fire-truck",
+      "page": "how-to-draw-a-fire-truck.html",
+      "title": "How to Draw a Fire Truck",
+      "subject": "Fire Truck",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "fire truck",
+        "firefighter",
+        "vehicle",
+        "ladder"
+      ]
+    },
+    {
+      "slug": "digger",
+      "page": "how-to-draw-a-digger.html",
+      "title": "How to Draw a Digger",
+      "subject": "Digger",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "digger",
+        "excavator",
+        "construction",
+        "vehicle"
+      ]
+    },
+    {
+      "slug": "giraffe",
+      "page": "how-to-draw-a-giraffe.html",
+      "title": "How to Draw a Giraffe",
+      "subject": "Giraffe",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "safari",
+        "spots",
+        "tall",
+        "africa"
+      ]
+    },
+    {
+      "slug": "zebra",
+      "page": "how-to-draw-a-zebra.html",
+      "title": "How to Draw a Zebra",
+      "subject": "Zebra",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "safari",
+        "stripes",
+        "africa"
+      ]
+    },
+    {
+      "slug": "bear",
+      "page": "how-to-draw-a-bear.html",
+      "title": "How to Draw a Bear",
+      "subject": "Bear",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "bear",
+        "brown bear",
+        "forest"
+      ]
+    },
+    {
+      "slug": "frog",
+      "page": "how-to-draw-a-frog.html",
+      "title": "How to Draw a Frog",
+      "subject": "Frog",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "frog",
+        "pond",
+        "jump"
+      ]
+    },
+    {
+      "slug": "sloth",
+      "page": "how-to-draw-a-sloth.html",
+      "title": "How to Draw a Sloth",
+      "subject": "Sloth",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "sloth",
+        "tree",
+        "slow"
+      ]
     }
   ]
 }

@@ -1398,6 +1398,180 @@
       "sheet": "assets/pterodactyl/sheet.png",
       "thumb": "assets/pterodactyl/final.png",
       "stepsData": "assets/pterodactyl/steps.js"
+    },
+    {
+      "slug": "car",
+      "title": "How to Draw a Car",
+      "subject": "Car",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "car",
+        "vehicle",
+        "drive"
+      ],
+      "page": "tutorials/how-to-draw-a-car.html",
+      "sheet": "assets/car/sheet.png",
+      "thumb": "assets/car/final.png",
+      "stepsData": "assets/car/steps.js"
+    },
+    {
+      "slug": "airplane",
+      "title": "How to Draw an Airplane",
+      "subject": "Airplane",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "airplane",
+        "plane",
+        "fly",
+        "sky"
+      ],
+      "page": "tutorials/how-to-draw-an-airplane.html",
+      "sheet": "assets/airplane/sheet.png",
+      "thumb": "assets/airplane/final.png",
+      "stepsData": "assets/airplane/steps.js"
+    },
+    {
+      "slug": "train",
+      "title": "How to Draw a Train",
+      "subject": "Train",
+      "category": "things",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "train",
+        "locomotive",
+        "railway"
+      ],
+      "page": "tutorials/how-to-draw-a-train.html",
+      "sheet": "assets/train/sheet.png",
+      "thumb": "assets/train/final.png",
+      "stepsData": "assets/train/steps.js"
+    },
+    {
+      "slug": "fire-truck",
+      "title": "How to Draw a Fire Truck",
+      "subject": "Fire Truck",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "fire truck",
+        "firefighter",
+        "vehicle",
+        "ladder"
+      ],
+      "page": "tutorials/how-to-draw-a-fire-truck.html",
+      "sheet": "assets/fire-truck/sheet.png",
+      "thumb": "assets/fire-truck/final.png",
+      "stepsData": "assets/fire-truck/steps.js"
+    },
+    {
+      "slug": "digger",
+      "title": "How to Draw a Digger",
+      "subject": "Digger",
+      "category": "things",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "digger",
+        "excavator",
+        "construction",
+        "vehicle"
+      ],
+      "page": "tutorials/how-to-draw-a-digger.html",
+      "sheet": "assets/digger/sheet.png",
+      "thumb": "assets/digger/final.png",
+      "stepsData": "assets/digger/steps.js"
+    },
+    {
+      "slug": "giraffe",
+      "title": "How to Draw a Giraffe",
+      "subject": "Giraffe",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "safari",
+        "spots",
+        "tall",
+        "africa"
+      ],
+      "page": "tutorials/how-to-draw-a-giraffe.html",
+      "sheet": "assets/giraffe/sheet.png",
+      "thumb": "assets/giraffe/final.png",
+      "stepsData": "assets/giraffe/steps.js"
+    },
+    {
+      "slug": "zebra",
+      "title": "How to Draw a Zebra",
+      "subject": "Zebra",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "safari",
+        "stripes",
+        "africa"
+      ],
+      "page": "tutorials/how-to-draw-a-zebra.html",
+      "sheet": "assets/zebra/sheet.png",
+      "thumb": "assets/zebra/final.png",
+      "stepsData": "assets/zebra/steps.js"
+    },
+    {
+      "slug": "bear",
+      "title": "How to Draw a Bear",
+      "subject": "Bear",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "bear",
+        "brown bear",
+        "forest"
+      ],
+      "page": "tutorials/how-to-draw-a-bear.html",
+      "sheet": "assets/bear/sheet.png",
+      "thumb": "assets/bear/final.png",
+      "stepsData": "assets/bear/steps.js"
+    },
+    {
+      "slug": "frog",
+      "title": "How to Draw a Frog",
+      "subject": "Frog",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "frog",
+        "pond",
+        "jump"
+      ],
+      "page": "tutorials/how-to-draw-a-frog.html",
+      "sheet": "assets/frog/sheet.png",
+      "thumb": "assets/frog/final.png",
+      "stepsData": "assets/frog/steps.js"
+    },
+    {
+      "slug": "sloth",
+      "title": "How to Draw a Sloth",
+      "subject": "Sloth",
+      "category": "jungle",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "sloth",
+        "tree",
+        "slow"
+      ],
+      "page": "tutorials/how-to-draw-a-sloth.html",
+      "sheet": "assets/sloth/sheet.png",
+      "thumb": "assets/sloth/final.png",
+      "stepsData": "assets/sloth/steps.js"
     }
   ]
 }
