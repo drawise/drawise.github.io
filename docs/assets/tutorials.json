@@ -1221,6 +1221,96 @@
       "sheet": "assets/monkey/sheet.png",
       "thumb": "assets/monkey/final.png",
       "stepsData": "assets/monkey/steps.js"
+    },
+    {
+      "slug": "santa",
+      "title": "How to Draw Santa",
+      "subject": "Santa",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "christmas",
+        "santa claus",
+        "father christmas",
+        "holiday",
+        "winter"
+      ],
+      "page": "tutorials/how-to-draw-santa.html",
+      "sheet": "assets/santa/sheet.png",
+      "thumb": "assets/santa/final.png",
+      "stepsData": "assets/santa/steps.js"
+    },
+    {
+      "slug": "reindeer",
+      "title": "How to Draw a Reindeer",
+      "subject": "Reindeer",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "christmas",
+        "deer",
+        "red nose",
+        "holiday"
+      ],
+      "page": "tutorials/how-to-draw-a-reindeer.html",
+      "sheet": "assets/reindeer/sheet.png",
+      "thumb": "assets/reindeer/final.png",
+      "stepsData": "assets/reindeer/steps.js"
+    },
+    {
+      "slug": "gingerbread-man",
+      "title": "How to Draw a Gingerbread Man",
+      "subject": "Gingerbread Man",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "christmas",
+        "cookie",
+        "gingerbread",
+        "holiday"
+      ],
+      "page": "tutorials/how-to-draw-a-gingerbread-man.html",
+      "sheet": "assets/gingerbread-man/sheet.png",
+      "thumb": "assets/gingerbread-man/final.png",
+      "stepsData": "assets/gingerbread-man/steps.js"
+    },
+    {
+      "slug": "elf",
+      "title": "How to Draw an Elf",
+      "subject": "Elf",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 9,
+      "tags": [
+        "christmas",
+        "santa helper",
+        "holiday"
+      ],
+      "page": "tutorials/how-to-draw-an-elf.html",
+      "sheet": "assets/elf/sheet.png",
+      "thumb": "assets/elf/final.png",
+      "stepsData": "assets/elf/steps.js"
+    },
+    {
+      "slug": "candy-cane",
+      "title": "How to Draw a Candy Cane",
+      "subject": "Candy Cane",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 4,
+      "tags": [
+        "christmas",
+        "candy",
+        "sweet",
+        "holiday"
+      ],
+      "page": "tutorials/how-to-draw-a-candy-cane.html",
+      "sheet": "assets/candy-cane/sheet.png",
+      "thumb": "assets/candy-cane/final.png",
+      "stepsData": "assets/candy-cane/steps.js"
     }
   ]
 }

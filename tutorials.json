@@ -1119,6 +1119,86 @@
         "tree",
         "cheeky"
       ]
+    },
+    {
+      "slug": "santa",
+      "page": "how-to-draw-santa.html",
+      "title": "How to Draw Santa",
+      "subject": "Santa",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "christmas",
+        "santa claus",
+        "father christmas",
+        "holiday",
+        "winter"
+      ]
+    },
+    {
+      "slug": "reindeer",
+      "page": "how-to-draw-a-reindeer.html",
+      "title": "How to Draw a Reindeer",
+      "subject": "Reindeer",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "christmas",
+        "deer",
+        "red nose",
+        "holiday"
+      ]
+    },
+    {
+      "slug": "gingerbread-man",
+      "page": "how-to-draw-a-gingerbread-man.html",
+      "title": "How to Draw a Gingerbread Man",
+      "subject": "Gingerbread Man",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "christmas",
+        "cookie",
+        "gingerbread",
+        "holiday"
+      ]
+    },
+    {
+      "slug": "elf",
+      "page": "how-to-draw-an-elf.html",
+      "title": "How to Draw an Elf",
+      "subject": "Elf",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 9,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "christmas",
+        "santa helper",
+        "holiday"
+      ]
+    },
+    {
+      "slug": "candy-cane",
+      "page": "how-to-draw-a-candy-cane.html",
+      "title": "How to Draw a Candy Cane",
+      "subject": "Candy Cane",
+      "category": "nature",
+      "difficulty": "Easy",
+      "steps": 4,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "christmas",
+        "candy",
+        "sweet",
+        "holiday"
+      ]
     }
   ]
 }
