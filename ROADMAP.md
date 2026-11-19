@@ -11,7 +11,7 @@ Age bands:
 
 Status: ✅ live · 🔜 in the first batch · blank = planned.
 
-**Full roadmap complete — all 70 tutorials live as of Nov 17, 2026.**
+**Full roadmap complete — all 70 tutorials live as of Nov 17, 2026. Library extended to 80 on Nov 18, 2026 (Christmas batch + Dinosaurs category).**
 
 ## First batch (produce in this order)
 
@@ -96,7 +96,12 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Christmas tree (6) — for December ✅
 - Pumpkin (6) — for October ✅
 - Easter egg (4) — for spring ✅
-- Leaf & acorn (5) — for autumn ✅
+- Leaf & acorn (5) — for autumn
+- Santa (8) ✅ — added Nov 18, 2026
+- Reindeer (8) ✅ — added Nov 18, 2026
+- Gingerbread man (6) ✅ — added Nov 18, 2026
+- Elf (9) ✅ — added Nov 18, 2026
+- Candy cane (4) ✅ — added Nov 18, 2026 ✅
 
 ## Things & Vehicles
 - Hot air balloon (7) ✅
@@ -105,6 +110,13 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Sneaker (8) ✅
 - Crown (5) ✅
 - Heart with wings (6) ✅
+
+## Dinosaurs (added Nov 18, 2026, beyond the original roadmap)
+- T-Rex (9) ✅
+- Triceratops (8) ✅
+- Stegosaurus (8) ✅
+- Long-neck dinosaur (7) ✅
+- Pterodactyl (7) ✅
 
 ## Production rules
 
