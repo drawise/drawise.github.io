@@ -11,7 +11,7 @@ Age bands:
 
 Status: ✅ live · 🔜 in the first batch · blank = planned.
 
-**Full roadmap complete — all 70 tutorials live as of Nov 17, 2026. Library extended to 80 on Nov 18, 2026 (Christmas batch + Dinosaurs category).**
+**Full roadmap complete — all 70 tutorials live as of Nov 17, 2026. Library extended to 80 on Nov 18, 2026 (Christmas batch + Dinosaurs category) and to 96 on Nov 19, 2026 (vehicles + wild animals + Cute Monsters).**
 
 ## First batch (produce in this order)
 
@@ -56,6 +56,10 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Fox (7) ✅
 - Koala (6) ✅
 - Red panda (9, ages 10+) ✅
+- Giraffe (8) ✅ — added Nov 19, 2026
+- Zebra (8) ✅ — added Nov 19, 2026
+- Bear (7) ✅ — added Nov 19, 2026
+- Sloth (7) ✅ — added Nov 19, 2026
 
 ## Birds
 - Owl (7) ✅
@@ -91,6 +95,7 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Mushroom house (8) ✅
 - Butterfly (8) ✅
 - Ladybug (5) ✅
+- Frog (6) ✅ — added Nov 19, 2026
 - Bee (6) ✅
 - Snowman (5) — for December ✅
 - Christmas tree (6) — for December ✅
@@ -108,6 +113,11 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Sailboat (6) ✅
 - Bicycle (9, ages 10+) ✅
 - Sneaker (8) ✅
+- Car (7) ✅ — added Nov 19, 2026
+- Airplane (7) ✅ — added Nov 19, 2026
+- Train (8) ✅ — added Nov 19, 2026
+- Fire truck (9) ✅ — added Nov 19, 2026
+- Digger (9) ✅ — added Nov 19, 2026
 - Crown (5) ✅
 - Heart with wings (6) ✅
 
@@ -117,6 +127,14 @@ Ice Cream, Cupcake, Turtle, Unicorn.
 - Stegosaurus (8) ✅
 - Long-neck dinosaur (7) ✅
 - Pterodactyl (7) ✅
+
+## Cute Monsters (added Nov 19, 2026 — Drawise's own original creatures; no franchise characters)
+- Sprout Buddy (6) ✅
+- Bubble Blob (5) ✅
+- Ember Cub (7) ✅
+- Star Sprite (6) ✅
+- Cloud Puff (6) ✅
+- Pebble Buddy (6) ✅
 
 ## Production rules
 
