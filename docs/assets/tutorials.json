@@ -1311,6 +1311,93 @@
       "sheet": "assets/candy-cane/sheet.png",
       "thumb": "assets/candy-cane/final.png",
       "stepsData": "assets/candy-cane/steps.js"
+    },
+    {
+      "slug": "t-rex",
+      "title": "How to Draw a T-Rex",
+      "subject": "T-Rex",
+      "category": "dinosaurs",
+      "difficulty": "Medium",
+      "steps": 9,
+      "tags": [
+        "dinosaur",
+        "dino",
+        "tyrannosaurus",
+        "rex"
+      ],
+      "page": "tutorials/how-to-draw-a-t-rex.html",
+      "sheet": "assets/t-rex/sheet.png",
+      "thumb": "assets/t-rex/final.png",
+      "stepsData": "assets/t-rex/steps.js"
+    },
+    {
+      "slug": "triceratops",
+      "title": "How to Draw a Triceratops",
+      "subject": "Triceratops",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "dinosaur",
+        "dino",
+        "horns"
+      ],
+      "page": "tutorials/how-to-draw-a-triceratops.html",
+      "sheet": "assets/triceratops/sheet.png",
+      "thumb": "assets/triceratops/final.png",
+      "stepsData": "assets/triceratops/steps.js"
+    },
+    {
+      "slug": "stegosaurus",
+      "title": "How to Draw a Stegosaurus",
+      "subject": "Stegosaurus",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 8,
+      "tags": [
+        "dinosaur",
+        "dino",
+        "plates"
+      ],
+      "page": "tutorials/how-to-draw-a-stegosaurus.html",
+      "sheet": "assets/stegosaurus/sheet.png",
+      "thumb": "assets/stegosaurus/final.png",
+      "stepsData": "assets/stegosaurus/steps.js"
+    },
+    {
+      "slug": "long-neck",
+      "title": "How to Draw a Long-Neck Dinosaur",
+      "subject": "Long-Neck Dinosaur",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "dinosaur",
+        "dino",
+        "brontosaurus",
+        "sauropod"
+      ],
+      "page": "tutorials/how-to-draw-a-long-neck-dinosaur.html",
+      "sheet": "assets/long-neck/sheet.png",
+      "thumb": "assets/long-neck/final.png",
+      "stepsData": "assets/long-neck/steps.js"
+    },
+    {
+      "slug": "pterodactyl",
+      "title": "How to Draw a Pterodactyl",
+      "subject": "Pterodactyl",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "dinosaur",
+        "dino",
+        "flying"
+      ],
+      "page": "tutorials/how-to-draw-a-pterodactyl.html",
+      "sheet": "assets/pterodactyl/sheet.png",
+      "thumb": "assets/pterodactyl/final.png",
+      "stepsData": "assets/pterodactyl/steps.js"
     }
   ]
 }

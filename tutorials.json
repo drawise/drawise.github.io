@@ -35,6 +35,10 @@
     {
       "name": "Fantasy & Fun",
       "slug": "fantasy"
+    },
+    {
+      "name": "Dinosaurs",
+      "slug": "dinosaurs"
     }
   ],
   "tutorials": [
@@ -1198,6 +1202,83 @@
         "candy",
         "sweet",
         "holiday"
+      ]
+    },
+    {
+      "slug": "t-rex",
+      "page": "how-to-draw-a-t-rex.html",
+      "title": "How to Draw a T-Rex",
+      "subject": "T-Rex",
+      "category": "dinosaurs",
+      "difficulty": "Medium",
+      "steps": 9,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "dinosaur",
+        "dino",
+        "tyrannosaurus",
+        "rex"
+      ]
+    },
+    {
+      "slug": "triceratops",
+      "page": "how-to-draw-a-triceratops.html",
+      "title": "How to Draw a Triceratops",
+      "subject": "Triceratops",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "dinosaur",
+        "dino",
+        "horns"
+      ]
+    },
+    {
+      "slug": "stegosaurus",
+      "page": "how-to-draw-a-stegosaurus.html",
+      "title": "How to Draw a Stegosaurus",
+      "subject": "Stegosaurus",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 8,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "dinosaur",
+        "dino",
+        "plates"
+      ]
+    },
+    {
+      "slug": "long-neck",
+      "page": "how-to-draw-a-long-neck-dinosaur.html",
+      "title": "How to Draw a Long-Neck Dinosaur",
+      "subject": "Long-Neck Dinosaur",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "dinosaur",
+        "dino",
+        "brontosaurus",
+        "sauropod"
+      ]
+    },
+    {
+      "slug": "pterodactyl",
+      "page": "how-to-draw-a-pterodactyl.html",
+      "title": "How to Draw a Pterodactyl",
+      "subject": "Pterodactyl",
+      "category": "dinosaurs",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-18",
+      "tags": [
+        "dinosaur",
+        "dino",
+        "flying"
       ]
     }
   ]
