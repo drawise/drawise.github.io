@@ -1572,6 +1572,117 @@
       "sheet": "assets/sloth/sheet.png",
       "thumb": "assets/sloth/final.png",
       "stepsData": "assets/sloth/steps.js"
+    },
+    {
+      "slug": "sprout-buddy",
+      "title": "How to Draw a Sprout Buddy",
+      "subject": "Sprout Buddy",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "monster",
+        "cute monster",
+        "plant",
+        "leaf"
+      ],
+      "page": "tutorials/how-to-draw-a-sprout-buddy.html",
+      "sheet": "assets/sprout-buddy/sheet.png",
+      "thumb": "assets/sprout-buddy/final.png",
+      "stepsData": "assets/sprout-buddy/steps.js"
+    },
+    {
+      "slug": "bubble-blob",
+      "title": "How to Draw a Bubble Blob",
+      "subject": "Bubble Blob",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 5,
+      "tags": [
+        "monster",
+        "cute monster",
+        "water",
+        "bubble",
+        "blob"
+      ],
+      "page": "tutorials/how-to-draw-a-bubble-blob.html",
+      "sheet": "assets/bubble-blob/sheet.png",
+      "thumb": "assets/bubble-blob/final.png",
+      "stepsData": "assets/bubble-blob/steps.js"
+    },
+    {
+      "slug": "ember-cub",
+      "title": "How to Draw an Ember Cub",
+      "subject": "Ember Cub",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 7,
+      "tags": [
+        "monster",
+        "cute monster",
+        "fire",
+        "cub"
+      ],
+      "page": "tutorials/how-to-draw-an-ember-cub.html",
+      "sheet": "assets/ember-cub/sheet.png",
+      "thumb": "assets/ember-cub/final.png",
+      "stepsData": "assets/ember-cub/steps.js"
+    },
+    {
+      "slug": "star-sprite",
+      "title": "How to Draw a Star Sprite",
+      "subject": "Star Sprite",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "monster",
+        "cute monster",
+        "star",
+        "space"
+      ],
+      "page": "tutorials/how-to-draw-a-star-sprite.html",
+      "sheet": "assets/star-sprite/sheet.png",
+      "thumb": "assets/star-sprite/final.png",
+      "stepsData": "assets/star-sprite/steps.js"
+    },
+    {
+      "slug": "cloud-puff",
+      "title": "How to Draw a Cloud Puff",
+      "subject": "Cloud Puff",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "monster",
+        "cute monster",
+        "cloud",
+        "sky",
+        "rain"
+      ],
+      "page": "tutorials/how-to-draw-a-cloud-puff.html",
+      "sheet": "assets/cloud-puff/sheet.png",
+      "thumb": "assets/cloud-puff/final.png",
+      "stepsData": "assets/cloud-puff/steps.js"
+    },
+    {
+      "slug": "pebble-buddy",
+      "title": "How to Draw a Pebble Buddy",
+      "subject": "Pebble Buddy",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "tags": [
+        "monster",
+        "cute monster",
+        "rock",
+        "crystal",
+        "stone"
+      ],
+      "page": "tutorials/how-to-draw-a-pebble-buddy.html",
+      "sheet": "assets/pebble-buddy/sheet.png",
+      "thumb": "assets/pebble-buddy/final.png",
+      "stepsData": "assets/pebble-buddy/steps.js"
     }
   ]
 }

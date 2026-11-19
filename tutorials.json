@@ -39,6 +39,10 @@
     {
       "name": "Dinosaurs",
       "slug": "dinosaurs"
+    },
+    {
+      "name": "Cute Monsters",
+      "slug": "monsters"
     }
   ],
   "tutorials": [
@@ -1433,6 +1437,105 @@
         "sloth",
         "tree",
         "slow"
+      ]
+    },
+    {
+      "slug": "sprout-buddy",
+      "page": "how-to-draw-a-sprout-buddy.html",
+      "title": "How to Draw a Sprout Buddy",
+      "subject": "Sprout Buddy",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "plant",
+        "leaf"
+      ]
+    },
+    {
+      "slug": "bubble-blob",
+      "page": "how-to-draw-a-bubble-blob.html",
+      "title": "How to Draw a Bubble Blob",
+      "subject": "Bubble Blob",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 5,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "water",
+        "bubble",
+        "blob"
+      ]
+    },
+    {
+      "slug": "ember-cub",
+      "page": "how-to-draw-an-ember-cub.html",
+      "title": "How to Draw an Ember Cub",
+      "subject": "Ember Cub",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 7,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "fire",
+        "cub"
+      ]
+    },
+    {
+      "slug": "star-sprite",
+      "page": "how-to-draw-a-star-sprite.html",
+      "title": "How to Draw a Star Sprite",
+      "subject": "Star Sprite",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "star",
+        "space"
+      ]
+    },
+    {
+      "slug": "cloud-puff",
+      "page": "how-to-draw-a-cloud-puff.html",
+      "title": "How to Draw a Cloud Puff",
+      "subject": "Cloud Puff",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "cloud",
+        "sky",
+        "rain"
+      ]
+    },
+    {
+      "slug": "pebble-buddy",
+      "page": "how-to-draw-a-pebble-buddy.html",
+      "title": "How to Draw a Pebble Buddy",
+      "subject": "Pebble Buddy",
+      "category": "monsters",
+      "difficulty": "Easy",
+      "steps": 6,
+      "dateAdded": "2026-11-19",
+      "tags": [
+        "monster",
+        "cute monster",
+        "rock",
+        "crystal",
+        "stone"
       ]
     }
   ]
